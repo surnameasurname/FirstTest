@@ -1,0 +1,15 @@
+..\obj\test.o: test.c
+..\obj\test.o: ..\SYSTEM\sys\sys.h
+..\obj\test.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\test.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+..\obj\test.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\test.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+..\obj\test.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+..\obj\test.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\test.o: ..\HARDWARE\UART\uart.h
+..\obj\test.o: ..\SYSTEM\delay\delay.h
+..\obj\test.o: ..\HARDWARE\STMFLASH\stmflash.h
+..\obj\test.o: ..\HARDWARE\TIME\time.h
+..\obj\test.o: ..\HARDWARE\Equipment\equipment.h
+..\obj\test.o: ..\HARDWARE\SHOW\show1.h
+..\obj\test.o: ..\HARDWARE\WDG\wdg.h

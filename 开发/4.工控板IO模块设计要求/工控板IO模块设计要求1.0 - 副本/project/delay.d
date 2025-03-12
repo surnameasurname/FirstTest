@@ -1,0 +1,9 @@
+.\delay.o: ..\SYSTEM\delay\delay.c
+.\delay.o: ..\SYSTEM\delay\delay.h
+.\delay.o: ..\SYSTEM\sys\sys.h
+.\delay.o: ..\SYSTEM\sys\stm32f10x.h
+.\delay.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+.\delay.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\delay.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\delay.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\delay.o: ..\SYSTEM\sys\system_stm32f10x.h

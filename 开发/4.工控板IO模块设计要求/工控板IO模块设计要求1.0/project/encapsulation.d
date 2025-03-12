@@ -1,0 +1,12 @@
+.\encapsulation.o: ..\DRIVE\ENCAPSULATION\encapsulation.c
+.\encapsulation.o: ..\DRIVE\ENCAPSULATION\encapsulation.h
+.\encapsulation.o: ..\SYSTEM\sys\sys.h
+.\encapsulation.o: ..\SYSTEM\sys\stm32f10x.h
+.\encapsulation.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+.\encapsulation.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\encapsulation.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\encapsulation.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\encapsulation.o: ..\SYSTEM\sys\system_stm32f10x.h
+.\encapsulation.o: ..\DRIVE\UART\uart.h
+.\encapsulation.o: ..\SYSTEM\delay\delay.h
+.\encapsulation.o: ..\DRIVE\COMMUNICATION\communication.h

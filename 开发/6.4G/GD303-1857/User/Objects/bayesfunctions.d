@@ -1,0 +1,11 @@
+.\objects\bayesfunctions.o: C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\Source\BayesFunctions\BayesFunctions.c
+.\objects\bayesfunctions.o: C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c
+.\objects\bayesfunctions.o: ..\DspLib\Include\arm_math.h
+.\objects\bayesfunctions.o: ..\DspLib\Include\core_cm4.h
+.\objects\bayesfunctions.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bayesfunctions.o: ..\FWLib\CMSIS\core_cmInstr.h
+.\objects\bayesfunctions.o: ..\FWLib\CMSIS\core_cmFunc.h
+.\objects\bayesfunctions.o: ..\DspLib\Include\core_cmSimd.h
+.\objects\bayesfunctions.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bayesfunctions.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\bayesfunctions.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h

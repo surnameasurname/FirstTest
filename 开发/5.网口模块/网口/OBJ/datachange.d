@@ -1,0 +1,9 @@
+..\obj\datachange.o: ..\HARDWARE\DataChange\DataChange.c
+..\obj\datachange.o: ..\HARDWARE\DataChange\DataChange.h
+..\obj\datachange.o: ..\SYSTEM\sys\sys.h
+..\obj\datachange.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\datachange.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+..\obj\datachange.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\datachange.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+..\obj\datachange.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+..\obj\datachange.o: ..\SYSTEM\sys\system_stm32f10x.h

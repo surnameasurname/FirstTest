@@ -1,0 +1,75 @@
+Dependencies for Project 'NewTest', Target 'NewTest': (DO NOT MODIFY !)
+CompilerVersion: 5060422::V5.06 update 4 (build 422)::ARMCC
+F (..\SYSTEM\startup_stm32f10x_hd.s)(0x5B56C972)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
+F (..\USER\main.c)(0x673D9F67)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\DRIVE\COMMUNICATION\communication.h)(0x672D7170)
+I (..\DRIVE\UART\uart.h)(0x672C2FD9)
+I (..\DRIVE\ENCAPSULATION\encapsulation.h)(0x67317243)
+F (..\SYSTEM\delay\delay.c)(0x5BB479F0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x5B553A52)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\DRIVE\COMMUNICATION\communication.c)(0x673176E6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\communication.o --omf_browse .\communication.crf --depend .\communication.d)
+I (..\DRIVE\COMMUNICATION\communication.h)(0x672D7170)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\DRIVE\UART\uart.h)(0x672C2FD9)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\DRIVE\ENCAPSULATION\encapsulation.h)(0x67317243)
+F (..\DRIVE\DataChange\DataChange.c)(0x5AF5232A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\datachange.o --omf_browse .\datachange.crf --depend .\datachange.d)
+I (..\DRIVE\DataChange\DataChange.h)(0x5AF524C8)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\DRIVE\ENCAPSULATION\encapsulation.c)(0x67317448)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\encapsulation.o --omf_browse .\encapsulation.crf --depend .\encapsulation.d)
+I (..\DRIVE\ENCAPSULATION\encapsulation.h)(0x67317243)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\DRIVE\UART\uart.h)(0x672C2FD9)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\DRIVE\COMMUNICATION\communication.h)(0x672D7170)
+F (..\DRIVE\UART\uart.c)(0x6731667B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\DRIVE\COMMUNICATION -I ..\DRIVE\DataChange -I ..\DRIVE\UART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\DRIVE\TIME -I ..\DRIVE\ENCAPSULATION-I.\RTE\_NewTest-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (..\DRIVE\UART\uart.h)(0x672C2FD9)
+I (..\SYSTEM\sys\sys.h)(0x5A5DE3FC)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)

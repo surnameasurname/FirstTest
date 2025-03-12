@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_hd.o"
+".\main.o"
+".\delay.o"
+".\sys.o"
+".\communication .o"
+".\communication1.o"
+".\communication3.o"
+".\datachange.o"
+".\show.o"
+".\show1.o"
+".\show3.o"
+".\uart.o"
+".\time.o"
+".\equipment.o"
+".\stmflash.o"
+".\conflash.o"
+".\timechange.o"
+--strict --scatter "ÉúÎïÆøÈÜ½º¼à²âÒÇÆ÷.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Test.map" -o .\Test.axf

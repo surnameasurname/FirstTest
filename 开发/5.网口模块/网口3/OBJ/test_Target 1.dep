@@ -1,0 +1,111 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060422::V5.06 update 4 (build 422)::ARMCC
+F (.\startup_stm32f10x_md.s)(0x5B5C3736)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list ..\obj\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (.\test.c)(0x676A4953)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x676A4AF3)
+I (..\HARDWARE\TIME\time.h)(0x5EC76704)
+I (..\HARDWARE\Equipment\equipment.h)(0x67696699)
+I (..\HARDWARE\SHOW\show1.h)(0x6758136B)
+I (..\HARDWARE\WDG\wdg.h)(0x53185348)
+F (..\SYSTEM\delay\delay.c)(0x66BEFB79)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x66BEF8BE)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\UART\uart.c)(0x674C0CFD)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\uart.o --omf_browse ..\obj\uart.crf --depend ..\obj\uart.d)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\COMMUNICATION\communication1.h)(0x66B9C066)
+F (..\HARDWARE\TIME\time.c)(0x674C0E04)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\time.o --omf_browse ..\obj\time.crf --depend ..\obj\time.d)
+I (..\HARDWARE\TIME\time.h)(0x5EC76704)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\COMMUNICATION\communication1.h)(0x66B9C066)
+F (..\HARDWARE\Equipment\equipment.c)(0x67696699)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\equipment.o --omf_browse ..\obj\equipment.crf --depend ..\obj\equipment.d)
+I (..\HARDWARE\Equipment\equipment.h)(0x67696699)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\DataChange\DataChange.c)(0x5AF5232A)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\datachange.o --omf_browse ..\obj\datachange.crf --depend ..\obj\datachange.d)
+I (..\HARDWARE\DataChange\DataChange.h)(0x5AF524C8)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\STMFLASH\stmflash.c)(0x676A451D)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\stmflash.o --omf_browse ..\obj\stmflash.crf --depend ..\obj\stmflash.d)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x676A4AF3)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\HARDWARE\Equipment\equipment.h)(0x67696699)
+I (..\HARDWARE\LORA\lora.h)(0x674C0DBA)
+I (..\HARDWARE\SHOW\show1.h)(0x6758136B)
+F (..\HARDWARE\SHOW\show1.c)(0x676A4955)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\show1.o --omf_browse ..\obj\show1.crf --depend ..\obj\show1.d)
+I (..\HARDWARE\SHOW\show1.h)(0x6758136B)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\HARDWARE\DataChange\DataChange.h)(0x5AF524C8)
+I (..\HARDWARE\Equipment\equipment.h)(0x67696699)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x676A4AF3)
+I (..\HARDWARE\LORA\lora.h)(0x674C0DBA)
+F (..\HARDWARE\WDG\wdg.c)(0x5EBF54EE)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI -I ..\HARDWARE\WDG-I.\RTE\_Target_1-ID:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK523\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\wdg.o --omf_browse ..\obj\wdg.crf --depend ..\obj\wdg.d)
+I (..\HARDWARE\WDG\wdg.h)(0x53185348)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)

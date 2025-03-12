@@ -1,0 +1,14 @@
+..\obj\lora.o: ..\HARDWARE\LORA\lora.c
+..\obj\lora.o: ..\HARDWARE\LORA\lora.h
+..\obj\lora.o: ..\SYSTEM\sys\sys.h
+..\obj\lora.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\lora.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+..\obj\lora.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\lora.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+..\obj\lora.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+..\obj\lora.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\lora.o: ..\HARDWARE\Equipment\equipment.h
+..\obj\lora.o: ..\HARDWARE\UART\uart.h
+..\obj\lora.o: ..\HARDWARE\DataChange\DataChange.h
+..\obj\lora.o: ..\SYSTEM\delay\delay.h
+..\obj\lora.o: ..\HARDWARE\MySPI\MySPI.h

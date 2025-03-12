@@ -1,0 +1,13 @@
+.\main.o: ..\USER\main.c
+.\main.o: ..\SYSTEM\delay\delay.h
+.\main.o: ..\SYSTEM\sys\sys.h
+.\main.o: ..\SYSTEM\sys\stm32f10x.h
+.\main.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+.\main.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\main.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\main.o: ..\SYSTEM\sys\system_stm32f10x.h
+.\main.o: ..\DRIVE\COMMUNICATION\communication.h
+.\main.o: ..\DRIVE\UART\uart.h
+.\main.o: ..\DRIVE\ENCAPSULATION\encapsulation.h
+.\main.o: ..\DRIVE\COMMUNICATION\communication.h

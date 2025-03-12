@@ -1,0 +1,14 @@
+..\obj\communication1.o: ..\HARDWARE\COMMUNICATION\communication1.c
+..\obj\communication1.o: ..\HARDWARE\UART\uart.h
+..\obj\communication1.o: ..\SYSTEM\sys\sys.h
+..\obj\communication1.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\communication1.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+..\obj\communication1.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\communication1.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+..\obj\communication1.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+..\obj\communication1.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\communication1.o: ..\SYSTEM\delay\delay.h
+..\obj\communication1.o: ..\HARDWARE\TIME\time.h
+..\obj\communication1.o: ..\HARDWARE\Equipment\equipment.h
+..\obj\communication1.o: ..\HARDWARE\COMMUNICATION\communication1.h
+..\obj\communication1.o: ..\HARDWARE\SHOW\show1.h

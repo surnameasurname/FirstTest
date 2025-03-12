@@ -1,0 +1,189 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f10x_md.s)(0x5B5C3736)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list ..\obj\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (.\test.c)(0x672705FC)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\ADC\adc.h)(0x671287F2)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x6726FBC1)
+I (..\HARDWARE\TIME\time.h)(0x5EC76704)
+I (..\HARDWARE\COMMUNICATION\communication1.h)(0x66B9C066)
+I (..\HARDWARE\Equipment\equipment.h)(0x66F45DBF)
+I (..\HARDWARE\LORA\radio.h)(0x66F431DE)
+I (..\HARDWARE\LORA\sx126x_driver.h)(0x6720FB7F)
+I (..\HARDWARE\LORA\sx126x_reg.h)(0x66F4185A)
+F (..\SYSTEM\delay\delay.c)(0x66BEFB79)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x66BEF8BE)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\ADC\adc.c)(0x671D3AE6)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x671287F2)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+F (..\HARDWARE\UART\uart.c)(0x66F45751)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\uart.o --omf_browse ..\obj\uart.crf --depend ..\obj\uart.d)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\COMMUNICATION\communication1.h)(0x66B9C066)
+F (..\HARDWARE\TIME\time.c)(0x671273C3)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\time.o --omf_browse ..\obj\time.crf --depend ..\obj\time.d)
+I (..\HARDWARE\TIME\time.h)(0x5EC76704)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\COMMUNICATION\communication1.h)(0x66B9C066)
+F (..\HARDWARE\COMMUNICATION\communication1.c)(0x6721FE8E)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\communication1.o --omf_browse ..\obj\communication1.crf --depend ..\obj\communication1.d)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\TIME\time.h)(0x5EC76704)
+I (..\HARDWARE\Equipment\equipment.h)(0x66F45DBF)
+I (..\HARDWARE\COMMUNICATION\communication1.h)(0x66B9C066)
+I (..\HARDWARE\SHOW\show1.h)(0x66C7EA73)
+F (..\HARDWARE\Equipment\equipment.c)(0x6726FAEE)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\equipment.o --omf_browse ..\obj\equipment.crf --depend ..\obj\equipment.d)
+I (..\HARDWARE\Equipment\equipment.h)(0x66F45DBF)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\DataChange\DataChange.c)(0x5AF5232A)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\datachange.o --omf_browse ..\obj\datachange.crf --depend ..\obj\datachange.d)
+I (..\HARDWARE\DataChange\DataChange.h)(0x5AF524C8)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\STMFLASH\stmflash.c)(0x67270737)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\stmflash.o --omf_browse ..\obj\stmflash.crf --depend ..\obj\stmflash.d)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x6726FBC1)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\HARDWARE\Equipment\equipment.h)(0x66F45DBF)
+I (..\HARDWARE\LORA\lora.h)(0x66F43235)
+F (..\HARDWARE\SHOW\show1.c)(0x671FAA33)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\show1.o --omf_browse ..\obj\show1.crf --depend ..\obj\show1.d)
+I (..\HARDWARE\SHOW\show1.h)(0x66C7EA73)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\HARDWARE\DataChange\DataChange.h)(0x5AF524C8)
+I (..\HARDWARE\Equipment\equipment.h)(0x66F45DBF)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x6726FBC1)
+I (..\HARDWARE\LORA\lora.h)(0x66F43235)
+F (..\HARDWARE\LORA\lora.c)(0x66F43237)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\lora.o --omf_browse ..\obj\lora.crf --depend ..\obj\lora.d)
+F (..\HARDWARE\MySPI\MySPI.c)(0x6721018F)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\myspi.o --omf_browse ..\obj\myspi.crf --depend ..\obj\myspi.d)
+I (..\HARDWARE\MySPI\MySPI.h)(0x66F43E86)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+F (..\HARDWARE\LORA\radio.c)(0x672484A6)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\radio.o --omf_browse ..\obj\radio.crf --depend ..\obj\radio.d)
+I (..\HARDWARE\LORA\radio.h)(0x66F431DE)
+I (..\HARDWARE\LORA\sx126x_driver.h)(0x6720FB7F)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LORA\sx126x_reg.h)(0x66F4185A)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+F (..\HARDWARE\LORA\sx126x_driver.c)(0x672317C8)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\sx126x_driver.o --omf_browse ..\obj\sx126x_driver.crf --depend ..\obj\sx126x_driver.d)
+I (..\HARDWARE\LORA\sx126x_driver.h)(0x6720FB7F)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LORA\sx126x_reg.h)(0x66F4185A)
+I (..\SYSTEM\delay\delay.h)(0x5AF178B0)
+I (..\HARDWARE\MySPI\MySPI.h)(0x66F43E86)
+I (..\HARDWARE\UART\uart.h)(0x66793AC4)
+I (..\HARDWARE\LORA\utilities.h)(0x66F431FD)
+F (..\HARDWARE\LORA\utilities.c)(0x66F431EE)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\ADC -I ..\HARDWARE\UART -I ..\HARDWARE\TIME -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\COMMUNICATION -I ..\HARDWARE\Equipment -I ..\HARDWARE\DataChange -I ..\HARDWARE\SHOW -I ..\HARDWARE\LORA -I ..\HARDWARE\MySPI-I.\RTE\_Target_1-IC:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\RD\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DSTM32F10X_MD-o ..\obj\utilities.o --omf_browse ..\obj\utilities.crf --depend ..\obj\utilities.d)
+I (..\HARDWARE\LORA\utilities.h)(0x66F431FD)
+I (..\SYSTEM\sys\sys.h)(0x5B5C2FDE)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)

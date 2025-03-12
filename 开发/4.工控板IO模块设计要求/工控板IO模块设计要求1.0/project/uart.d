@@ -1,0 +1,10 @@
+.\uart.o: ..\DRIVE\UART\uart.c
+.\uart.o: ..\DRIVE\UART\uart.h
+.\uart.o: ..\SYSTEM\sys\sys.h
+.\uart.o: ..\SYSTEM\sys\stm32f10x.h
+.\uart.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+.\uart.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\uart.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\uart.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\uart.o: ..\SYSTEM\sys\system_stm32f10x.h
+.\uart.o: ..\SYSTEM\delay\delay.h

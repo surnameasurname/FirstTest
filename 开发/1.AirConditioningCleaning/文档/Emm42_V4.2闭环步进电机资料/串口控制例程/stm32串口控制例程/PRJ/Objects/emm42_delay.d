@@ -1,0 +1,13 @@
+.\objects\emm42_delay.o: ..\DRIVERS\Emm42_delay.c
+.\objects\emm42_delay.o: ..\DRIVERS\Emm42_delay.h
+.\objects\emm42_delay.o: ..\CMSIS\stm32f10x.h
+.\objects\emm42_delay.o: ..\CMSIS\core_cm3.h
+.\objects\emm42_delay.o: D:\ApplicationProgram\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\emm42_delay.o: ..\CMSIS\system_stm32f10x.h
+.\objects\emm42_delay.o: ..\APP\stm32f10x_conf.h
+.\objects\emm42_delay.o: D:\ApplicationProgram\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\emm42_delay.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h
+.\objects\emm42_delay.o: ..\CMSIS\stm32f10x.h
+.\objects\emm42_delay.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h
+.\objects\emm42_delay.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h
+.\objects\emm42_delay.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h

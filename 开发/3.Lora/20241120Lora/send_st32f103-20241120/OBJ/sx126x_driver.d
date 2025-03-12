@@ -1,0 +1,15 @@
+..\obj\sx126x_driver.o: ..\HARDWARE\LORA\sx126x_driver.c
+..\obj\sx126x_driver.o: ..\HARDWARE\LORA\sx126x_driver.h
+..\obj\sx126x_driver.o: ..\SYSTEM\sys\sys.h
+..\obj\sx126x_driver.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\sx126x_driver.o: C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h
+..\obj\sx126x_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\sx126x_driver.o: C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+..\obj\sx126x_driver.o: C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+..\obj\sx126x_driver.o: C:\Users\RD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+..\obj\sx126x_driver.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\sx126x_driver.o: ..\HARDWARE\LORA\sx126x_reg.h
+..\obj\sx126x_driver.o: ..\SYSTEM\delay\delay.h
+..\obj\sx126x_driver.o: ..\HARDWARE\MySPI\MySPI.h
+..\obj\sx126x_driver.o: ..\HARDWARE\UART\uart.h
+..\obj\sx126x_driver.o: ..\HARDWARE\LORA\utilities.h

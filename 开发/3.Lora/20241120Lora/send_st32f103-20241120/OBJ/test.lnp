@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"..\obj\startup_stm32f10x_md.o"
+"..\obj\test.o"
+"..\obj\delay.o"
+"..\obj\sys.o"
+"..\obj\adc.o"
+"..\obj\uart.o"
+"..\obj\time.o"
+"..\obj\communication1.o"
+"..\obj\equipment.o"
+"..\obj\datachange.o"
+"..\obj\stmflash.o"
+"..\obj\show1.o"
+"..\obj\lora.o"
+"..\obj\myspi.o"
+"..\obj\radio.o"
+"..\obj\sx126x_driver.o"
+"..\obj\utilities.o"
+--strict --scatter "..\OBJ\test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\OBJ\test.map" -o ..\OBJ\test.axf

@@ -1,0 +1,11 @@
+.\objects\emm42_board.o: ..\BSP\Emm42_board.c
+.\objects\emm42_board.o: ..\BSP\Emm42_board.h
+.\objects\emm42_board.o: ..\CMSIS\stm32f10x.h
+.\objects\emm42_board.o: ..\CMSIS\core_cm3.h
+.\objects\emm42_board.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\emm42_board.o: ..\CMSIS\system_stm32f10x.h
+.\objects\emm42_board.o: ..\APP\stm32f10x_conf.h
+.\objects\emm42_board.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\emm42_board.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h
+.\objects\emm42_board.o: ..\CMSIS\stm32f10x.h
+.\objects\emm42_board.o: ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h

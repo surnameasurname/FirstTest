@@ -1,0 +1,2147 @@
+Component: ARM Compiler 5.06 update 4 (build 422) Tool: armlink [4d3601]
+
+==============================================================================
+
+Section Cross References
+
+    gd32f30x_adc.o(i.adc_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_adc.o(i.adc_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_bkp.o(i.bkp_deinit) refers to gd32f30x_rcu.o(i.rcu_bkp_reset_enable) for rcu_bkp_reset_enable
+    gd32f30x_bkp.o(i.bkp_deinit) refers to gd32f30x_rcu.o(i.rcu_bkp_reset_disable) for rcu_bkp_reset_disable
+    gd32f30x_can.o(i.can_debug_freeze_disable) refers to gd32f30x_dbg.o(i.dbg_periph_enable) for dbg_periph_enable
+    gd32f30x_can.o(i.can_debug_freeze_enable) refers to gd32f30x_dbg.o(i.dbg_periph_enable) for dbg_periph_enable
+    gd32f30x_can.o(i.can_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_can.o(i.can_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_can.o(i.can_interrupt_flag_get) refers to gd32f30x_can.o(i.can_receive_message_length_get) for can_receive_message_length_get
+    gd32f30x_can.o(i.can_interrupt_flag_get) refers to gd32f30x_can.o(i.can_error_get) for can_error_get
+    gd32f30x_ctc.o(i.ctc_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_ctc.o(i.ctc_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_dac.o(i.dac_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_dac.o(i.dac_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_gpio.o(i.gpio_init) for gpio_init
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_dac.o(i.dac_deinit) for dac_deinit
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_dac.o(i.dac_trigger_disable) for dac_trigger_disable
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_dac.o(i.dac_wave_mode_config) for dac_wave_mode_config
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_dac.o(i.dac_output_buffer_disable) for dac_output_buffer_disable
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_dac.o(i.dac_enable) for dac_enable
+    gd32f30x_dac.o(i.dac_init) refers to gd32f30x_dac.o(i.dac_data_set) for dac_data_set
+    gd32f30x_dma.o(i.dma_channel_disable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_channel_enable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_circulation_disable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_circulation_enable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_deinit) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_init) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_interrupt_disable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_interrupt_enable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_memory_address_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_memory_increase_disable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_memory_increase_enable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_memory_to_memory_disable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_memory_to_memory_enable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_memory_width_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_periph_address_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_periph_increase_disable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_periph_increase_enable) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_periph_width_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_priority_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_transfer_direction_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_transfer_number_config) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_dma.o(i.dma_transfer_number_get) refers to gd32f30x_dma.o(i.dma_periph_and_channel_check) for dma_periph_and_channel_check
+    gd32f30x_fmc.o(i.WriteAdd) refers to gd32f30x_fmc.o(i.fmc_write_data_16b) for fmc_write_data_16b
+    gd32f30x_fmc.o(i.WriteAddress2) refers to gd32f30x_fmc.o(i.fmc_write_data_16b) for fmc_write_data_16b
+    gd32f30x_fmc.o(i.WriteReceiveMode) refers to gd32f30x_fmc.o(i.fmc_write_data_16b) for fmc_write_data_16b
+    gd32f30x_fmc.o(i.fmc_bank0_erase) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.fmc_bank0_ready_wait) refers to gd32f30x_fmc.o(i.fmc_bank0_state_get) for fmc_bank0_state_get
+    gd32f30x_fmc.o(i.fmc_bank1_erase) refers to gd32f30x_fmc.o(i.fmc_bank1_ready_wait) for fmc_bank1_ready_wait
+    gd32f30x_fmc.o(i.fmc_bank1_ready_wait) refers to gd32f30x_fmc.o(i.fmc_bank1_state_get) for fmc_bank1_state_get
+    gd32f30x_fmc.o(i.fmc_halfword_program) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.fmc_halfword_program) refers to gd32f30x_fmc.o(i.fmc_bank1_ready_wait) for fmc_bank1_ready_wait
+    gd32f30x_fmc.o(i.fmc_mass_erase) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.fmc_mass_erase) refers to gd32f30x_fmc.o(i.fmc_bank1_ready_wait) for fmc_bank1_ready_wait
+    gd32f30x_fmc.o(i.fmc_page_erase) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.fmc_page_erase) refers to gd32f30x_fmc.o(i.fmc_bank1_ready_wait) for fmc_bank1_ready_wait
+    gd32f30x_fmc.o(i.fmc_word_program) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.fmc_word_program) refers to gd32f30x_fmc.o(i.fmc_bank1_ready_wait) for fmc_bank1_ready_wait
+    gd32f30x_fmc.o(i.fmc_word_reprogram) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.fmc_word_reprogram) refers to gd32f30x_fmc.o(i.fmc_bank1_ready_wait) for fmc_bank1_ready_wait
+    gd32f30x_fmc.o(i.fmc_write_data_16b) refers to gd32f30x_fmc.o(i.fmc_unlock) for fmc_unlock
+    gd32f30x_fmc.o(i.fmc_write_data_16b) refers to gd32f30x_fmc.o(i.fmc_flag_clear) for fmc_flag_clear
+    gd32f30x_fmc.o(i.fmc_write_data_16b) refers to gd32f30x_fmc.o(i.fmc_page_erase) for fmc_page_erase
+    gd32f30x_fmc.o(i.fmc_write_data_16b) refers to gd32f30x_fmc.o(i.fmc_halfword_program) for fmc_halfword_program
+    gd32f30x_fmc.o(i.fmc_write_data_16b) refers to gd32f30x_fmc.o(i.fmc_lock) for fmc_lock
+    gd32f30x_fmc.o(i.ob_data_program) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.ob_erase) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.ob_erase) refers to gd32f30x_fmc.o(i.ob_spc_get) for ob_spc_get
+    gd32f30x_fmc.o(i.ob_security_protection_config) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.ob_user_write) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_fmc.o(i.ob_write_protection_enable) refers to gd32f30x_fmc.o(i.fmc_bank0_ready_wait) for fmc_bank0_ready_wait
+    gd32f30x_gpio.o(i.gpio_afio_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_gpio.o(i.gpio_afio_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_gpio.o(i.gpio_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_gpio.o(i.gpio_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_i2c.o(i.i2c_clock_config) refers to gd32f30x_rcu.o(i.rcu_clock_freq_get) for rcu_clock_freq_get
+    gd32f30x_i2c.o(i.i2c_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_i2c.o(i.i2c_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_misc.o(i.nvic_irq_enable) refers to gd32f30x_misc.o(i.nvic_priority_group_set) for nvic_priority_group_set
+    gd32f30x_pmu.o(i.pmu_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_pmu.o(i.pmu_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_pmu.o(i.pmu_highdriver_switch_select) refers to gd32f30x_pmu.o(i.pmu_flag_get) for pmu_flag_get
+    gd32f30x_pmu.o(i.pmu_to_deepsleepmode) refers to gd32f30x_pmu.o(.bss) for reg_snap
+    gd32f30x_rcu.o(i.rcu_deinit) refers to gd32f30x_rcu.o(i.rcu_osci_stab_wait) for rcu_osci_stab_wait
+    gd32f30x_rcu.o(i.rcu_osci_stab_wait) refers to gd32f30x_rcu.o(i.rcu_flag_get) for rcu_flag_get
+    gd32f30x_rtc.o(i.rtc_alarm_config) refers to gd32f30x_rtc.o(i.rtc_configuration_mode_enter) for rtc_configuration_mode_enter
+    gd32f30x_rtc.o(i.rtc_alarm_config) refers to gd32f30x_rtc.o(i.rtc_configuration_mode_exit) for rtc_configuration_mode_exit
+    gd32f30x_rtc.o(i.rtc_counter_set) refers to gd32f30x_rtc.o(i.rtc_configuration_mode_enter) for rtc_configuration_mode_enter
+    gd32f30x_rtc.o(i.rtc_counter_set) refers to gd32f30x_rtc.o(i.rtc_configuration_mode_exit) for rtc_configuration_mode_exit
+    gd32f30x_rtc.o(i.rtc_prescaler_set) refers to gd32f30x_rtc.o(i.rtc_configuration_mode_enter) for rtc_configuration_mode_enter
+    gd32f30x_rtc.o(i.rtc_prescaler_set) refers to gd32f30x_rtc.o(i.rtc_configuration_mode_exit) for rtc_configuration_mode_exit
+    gd32f30x_spi.o(i.i2s_psc_config) refers to gd32f30x_rcu.o(i.rcu_clock_freq_get) for rcu_clock_freq_get
+    gd32f30x_spi.o(i.spi_i2s_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_spi.o(i.spi_i2s_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_timer.o(i.timer_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_timer.o(i.timer_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_timer.o(i.timer_external_clock_mode0_config) refers to gd32f30x_timer.o(i.timer_external_trigger_config) for timer_external_trigger_config
+    gd32f30x_timer.o(i.timer_external_clock_mode1_config) refers to gd32f30x_timer.o(i.timer_external_trigger_config) for timer_external_trigger_config
+    gd32f30x_timer.o(i.timer_external_trigger_as_external_clock_config) refers to gd32f30x_timer.o(i.timer_input_trigger_source_select) for timer_input_trigger_source_select
+    gd32f30x_timer.o(i.timer_input_capture_config) refers to gd32f30x_timer.o(i.timer_channel_input_capture_prescaler_config) for timer_channel_input_capture_prescaler_config
+    gd32f30x_timer.o(i.timer_input_pwm_capture_config) refers to gd32f30x_timer.o(i.timer_channel_input_capture_prescaler_config) for timer_channel_input_capture_prescaler_config
+    gd32f30x_timer.o(i.timer_internal_trigger_as_external_clock_config) refers to gd32f30x_timer.o(i.timer_input_trigger_source_select) for timer_input_trigger_source_select
+    gd32f30x_usart.o(i.usart_baudrate_set) refers to gd32f30x_rcu.o(i.rcu_clock_freq_get) for rcu_clock_freq_get
+    gd32f30x_usart.o(i.usart_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_usart.o(i.usart_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    gd32f30x_wwdgt.o(i.wwdgt_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_enable) for rcu_periph_reset_enable
+    gd32f30x_wwdgt.o(i.wwdgt_deinit) refers to gd32f30x_rcu.o(i.rcu_periph_reset_disable) for rcu_periph_reset_disable
+    startup_gd32f30x_hd.o(RESET) refers to startup_gd32f30x_hd.o(STACK) for __initial_sp
+    startup_gd32f30x_hd.o(RESET) refers to startup_gd32f30x_hd.o(.text) for Reset_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.NMI_Handler) for NMI_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.HardFault_Handler) for HardFault_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.MemManage_Handler) for MemManage_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.BusFault_Handler) for BusFault_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.UsageFault_Handler) for UsageFault_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.SVC_Handler) for SVC_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.DebugMon_Handler) for DebugMon_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.PendSV_Handler) for PendSV_Handler
+    startup_gd32f30x_hd.o(RESET) refers to gd32f30x_it.o(i.SysTick_Handler) for SysTick_Handler
+    startup_gd32f30x_hd.o(RESET) refers to timer.o(i.TIMER1_IRQHandler) for TIMER1_IRQHandler
+    startup_gd32f30x_hd.o(RESET) refers to communication1.o(i.USART0_IRQHandler) for USART0_IRQHandler
+    startup_gd32f30x_hd.o(RESET) refers to timer.o(i.TIMER5_IRQHandler) for TIMER5_IRQHandler
+    startup_gd32f30x_hd.o(.text) refers to system_gd32f30x.o(i.SystemInit) for SystemInit
+    startup_gd32f30x_hd.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    main.o(i.main) refers to gd32f30x_misc.o(i.nvic_priority_group_set) for nvic_priority_group_set
+    main.o(i.main) refers to systick.o(i.systick_config) for systick_config
+    main.o(i.main) refers to usart0.o(i.usart0_config) for usart0_config
+    main.o(i.main) refers to led.o(i.led_init) for led_init
+    main.o(i.main) refers to gd32f30x_dac.o(i.dac_init) for dac_init
+    main.o(i.main) refers to timer.o(i.timer5_init) for timer5_init
+    main.o(i.main) refers to timer.o(i.timer1_init) for timer1_init
+    main.o(i.main) refers to communication1.o(i.communication1_init) for communication1_init
+    main.o(i.main) refers to gd32f30x_dbg.o(i.dbg_trace_pin_disable) for dbg_trace_pin_disable
+    main.o(i.main) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    main.o(i.main) refers to gd32f30x_gpio.o(i.gpio_pin_remap_config) for gpio_pin_remap_config
+    main.o(i.main) refers to radio.o(i.RadioInit) for RadioInit
+    main.o(i.main) refers to radio.o(i.RadioStandby) for RadioStandby
+    main.o(i.main) refers to radio.o(i.RadioSetTxConfig) for RadioSetTxConfig
+    main.o(i.main) refers to radio.o(i.RadioSetChannel) for RadioSetChannel
+    main.o(i.main) refers to radio.o(i.RadioRx) for RadioRx
+    main.o(i.main) refers to gd32f30x_fmc.o(i.fmc_read_data_16b) for fmc_read_data_16b
+    main.o(i.main) refers to gd32f30x_fmc.o(i.fmc_read_Address2_16b) for fmc_read_Address2_16b
+    main.o(i.main) refers to gd32f30x_fmc.o(i.fmc_read_ReceiveMode_16b) for fmc_read_ReceiveMode_16b
+    main.o(i.main) refers to gd32f30x_fmc.o(i.WriteAdd) for WriteAdd
+    main.o(i.main) refers to radio.o(i.RadioGetIrqStatus) for RadioGetIrqStatus
+    main.o(i.main) refers to radio.o(i.RadioClearIrqStatus) for RadioClearIrqStatus
+    main.o(i.main) refers to radio.o(i.RadioGetBuffer) for RadioGetBuffer
+    main.o(i.main) refers to led.o(i.led_on) for led_on
+    main.o(i.main) refers to systick.o(i.delay_1ms) for delay_1ms
+    main.o(i.main) refers to led.o(i.led_off) for led_off
+    main.o(i.main) refers to gd32f30x_dac.o(i.dac_enable) for dac_enable
+    main.o(i.main) refers to gd32f30x_dac.o(i.dac_data_set) for dac_data_set
+    main.o(i.main) refers to communication1.o(i.RS485_Send_Data) for RS485_Send_Data
+    main.o(i.main) refers to sx126x_driver.o(i.SX126xSetFs) for SX126xSetFs
+    main.o(i.main) refers to radio.o(i.OrderSend) for OrderSend
+    main.o(i.main) refers to communication1.o(i.Modbus_Event_1) for Modbus_Event_1
+    main.o(i.main) refers to communication1.o(.data) for Address1
+    main.o(i.main) refers to main.o(.data) for AddressInit
+    main.o(i.main) refers to communication1.o(.bss) for ReceiveBuff
+    main.o(i.main) refers to main.o(.bss) for g_RxBuffer
+    main.o(i.main) refers to timer.o(.data) for NumTest
+    system_gd32f30x.o(i.SystemCoreClockUpdate) refers to system_gd32f30x.o(.data) for SystemCoreClock
+    system_gd32f30x.o(i.SystemInit) refers to system_gd32f30x.o(i.system_clock_config) for system_clock_config
+    system_gd32f30x.o(i.system_clock_config) refers to system_gd32f30x.o(i.system_clock_120m_hxtal) for system_clock_120m_hxtal
+    gd32f30x_it.o(i.SysTick_Handler) refers to systick.o(i.delay_decrement) for delay_decrement
+    systick.o(i.delay_1ms) refers to systick.o(.data) for delay
+    systick.o(i.delay_decrement) refers to systick.o(.data) for delay
+    systick.o(i.delay_ms) refers to system_gd32f30x.o(.data) for SystemCoreClock
+    systick.o(i.delay_us) refers to system_gd32f30x.o(.data) for SystemCoreClock
+    systick.o(i.systick_config) refers to systick.o(i.NVIC_SetPriority) for NVIC_SetPriority
+    systick.o(i.systick_config) refers to system_gd32f30x.o(.data) for SystemCoreClock
+    usart0.o(i.Dis485) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    usart0.o(i.EN485) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    usart0.o(i.fputc) refers to usart0.o(i.EN485) for EN485
+    usart0.o(i.fputc) refers to gd32f30x_usart.o(i.usart_data_transmit) for usart_data_transmit
+    usart0.o(i.fputc) refers to gd32f30x_usart.o(i.usart_flag_get) for usart_flag_get
+    usart0.o(i.fputc) refers to usart0.o(i.Dis485) for Dis485
+    usart0.o(i.usart0_config) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    usart0.o(i.usart0_config) refers to gd32f30x_gpio.o(i.gpio_init) for gpio_init
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_deinit) for usart_deinit
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_baudrate_set) for usart_baudrate_set
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_parity_config) for usart_parity_config
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_word_length_set) for usart_word_length_set
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_stop_bit_set) for usart_stop_bit_set
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_receive_config) for usart_receive_config
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_transmit_config) for usart_transmit_config
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_interrupt_enable) for usart_interrupt_enable
+    usart0.o(i.usart0_config) refers to gd32f30x_misc.o(i.nvic_irq_enable) for nvic_irq_enable
+    usart0.o(i.usart0_config) refers to gd32f30x_usart.o(i.usart_enable) for usart_enable
+    led.o(i.led_init) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    led.o(i.led_init) refers to gd32f30x_gpio.o(i.gpio_init) for gpio_init
+    led.o(i.led_init) refers to led.o(i.led_on) for led_on
+    led.o(i.led_off) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    led.o(i.led_on) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    drv_spi.o(i.MISO_READ) refers to gd32f30x_gpio.o(i.gpio_input_bit_get) for gpio_input_bit_get
+    drv_spi.o(i.MOSI_H) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    drv_spi.o(i.MOSI_L) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    drv_spi.o(i.SCLK_H) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    drv_spi.o(i.SCLK_L) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    drv_spi.o(i.SPI_GPIO_Init) refers to gd32f30x_dbg.o(i.dbg_trace_pin_disable) for dbg_trace_pin_disable
+    drv_spi.o(i.SPI_GPIO_Init) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    drv_spi.o(i.SPI_GPIO_Init) refers to gd32f30x_gpio.o(i.gpio_pin_remap_config) for gpio_pin_remap_config
+    drv_spi.o(i.SPI_GPIO_Init) refers to gd32f30x_gpio.o(i.gpio_init) for gpio_init
+    drv_spi.o(i.drv_spi_read_write_byte) refers to drv_spi.o(i.MOSI_H) for MOSI_H
+    drv_spi.o(i.drv_spi_read_write_byte) refers to drv_spi.o(i.MOSI_L) for MOSI_L
+    drv_spi.o(i.drv_spi_read_write_byte) refers to systick.o(i.delay_us) for delay_us
+    drv_spi.o(i.drv_spi_read_write_byte) refers to drv_spi.o(i.SCLK_H) for SCLK_H
+    drv_spi.o(i.drv_spi_read_write_byte) refers to drv_spi.o(i.MISO_READ) for MISO_READ
+    drv_spi.o(i.drv_spi_read_write_byte) refers to drv_spi.o(i.SCLK_L) for SCLK_L
+    radio.o(i.OrderSend) refers to radio.o(i.RadioSend) for RadioSend
+    radio.o(i.OrderSend) refers to communication1.o(.data) for DataNum
+    radio.o(i.OrderSend) refers to communication1.o(.bss) for ReceiveBuff
+    radio.o(i.RadioClearDeviceErrors) refers to sx126x_driver.o(i.SX126xClearDeviceErrors) for SX126xClearDeviceErrors
+    radio.o(i.RadioClearIrqStatus) refers to sx126x_driver.o(i.SX126xClearIrqStatus) for SX126xClearIrqStatus
+    radio.o(i.RadioGetBuffer) refers to sx126x_driver.o(i.SX126xGetPayload) for SX126xGetPayload
+    radio.o(i.RadioGetDeviceErrors) refers to sx126x_driver.o(i.SX126xGetDeviceErrors) for SX126xGetDeviceErrors
+    radio.o(i.RadioGetIrqStatus) refers to sx126x_driver.o(i.SX126xGetIrqStatus) for SX126xGetIrqStatus
+    radio.o(i.RadioGetPacketStatus) refers to sx126x_driver.o(i.SX126xGetPacketStatus) for SX126xGetPacketStatus
+    radio.o(i.RadioGetStatus) refers to sx126x_driver.o(i.SX126xGetOperatingMode) for SX126xGetOperatingMode
+    radio.o(i.RadioInit) refers to sx126x_driver.o(i.SX126xInit) for SX126xInit
+    radio.o(i.RadioInit) refers to sx126x_driver.o(i.SX126xSetStandby) for SX126xSetStandby
+    radio.o(i.RadioInit) refers to sx126x_driver.o(i.SX126xSetRegulatorMode) for SX126xSetRegulatorMode
+    radio.o(i.RadioInit) refers to sx126x_driver.o(i.SX126xSetBufferBaseAddress) for SX126xSetBufferBaseAddress
+    radio.o(i.RadioInit) refers to sx126x_driver.o(i.SX126xSetTxParams) for SX126xSetTxParams
+    radio.o(i.RadioInit) refers to sx126x_driver.o(i.SX126xSetDioIrqParams) for SX126xSetDioIrqParams
+    radio.o(i.RadioIoDeInit) refers to sx126x_driver.o(i.SX126xIoDeInit) for SX126xIoDeInit
+    radio.o(i.RadioOnDioIrq) refers to radio.o(.data) for radio_irq
+    radio.o(i.RadioRandom) refers to sx126x_driver.o(i.SX126xSetPacketType) for SX126xSetPacketType
+    radio.o(i.RadioRandom) refers to sx126x_driver.o(i.SX126xSetRx) for SX126xSetRx
+    radio.o(i.RadioRandom) refers to systick.o(i.delay_1ms) for delay_1ms
+    radio.o(i.RadioRandom) refers to sx126x_driver.o(i.SX126xGetRssiInst) for SX126xGetRssiInst
+    radio.o(i.RadioRandom) refers to radio.o(i.RadioSleep) for RadioSleep
+    radio.o(i.RadioRecoverIoInit) refers to sx126x_driver.o(i.SX126xRecoverIoInit) for SX126xRecoverIoInit
+    radio.o(i.RadioRssi) refers to sx126x_driver.o(i.SX126xGetRssiInst) for SX126xGetRssiInst
+    radio.o(i.RadioRx) refers to sx126x_driver.o(i.radio_tx_off) for radio_tx_off
+    radio.o(i.RadioRx) refers to sx126x_driver.o(i.radio_rx_on) for radio_rx_on
+    radio.o(i.RadioRx) refers to sx126x_driver.o(i.SX126xSetDioIrqParams) for SX126xSetDioIrqParams
+    radio.o(i.RadioRx) refers to sx126x_driver.o(i.SX126xSetRx) for SX126xSetRx
+    radio.o(i.RadioRxBoosted) refers to sx126x_driver.o(i.SX126xSetRxBoosted) for SX126xSetRxBoosted
+    radio.o(i.RadioRxBoosted) refers to radio.o(.data) for RxContinuous
+    radio.o(i.RadioSend) refers to sx126x_driver.o(i.radio_tx_on) for radio_tx_on
+    radio.o(i.RadioSend) refers to sx126x_driver.o(i.radio_rx_off) for radio_rx_off
+    radio.o(i.RadioSend) refers to delay.o(i.Delay_nms) for Delay_nms
+    radio.o(i.RadioSend) refers to sx126x_driver.o(i.SX126xSetDioIrqParams) for SX126xSetDioIrqParams
+    radio.o(i.RadioSend) refers to sx126x_driver.o(i.SX126xSetPacketParams) for SX126xSetPacketParams
+    radio.o(i.RadioSend) refers to sx126x_driver.o(i.SX126xSendPayload) for SX126xSendPayload
+    radio.o(i.RadioSend) refers to radio.o(.bss) for SX126x
+    radio.o(i.RadioSetCadParams) refers to sx126x_driver.o(i.SX126xSetCadParams) for SX126xSetCadParams
+    radio.o(i.RadioSetChannel) refers to sx126x_driver.o(i.SX126xSetRfFrequency) for SX126xSetRfFrequency
+    radio.o(i.RadioSetMaxPayloadLength) refers to sx126x_driver.o(i.SX126xSetPacketParams) for SX126xSetPacketParams
+    radio.o(i.RadioSetMaxPayloadLength) refers to radio.o(.data) for MaxPayloadLength
+    radio.o(i.RadioSetMaxPayloadLength) refers to radio.o(.bss) for SX126x
+    radio.o(i.RadioSetModem) refers to sx126x_driver.o(i.SX126xSetPacketType) for SX126xSetPacketType
+    radio.o(i.RadioSetModem) refers to radio.o(i.RadioSetPublicNetwork) for RadioSetPublicNetwork
+    radio.o(i.RadioSetModem) refers to radio.o(.data) for RadioPublicNetwork
+    radio.o(i.RadioSetPreamble) refers to sx126x_driver.o(i.SX126xSetStandby) for SX126xSetStandby
+    radio.o(i.RadioSetPreamble) refers to sx126x_driver.o(i.SX126xSetPacketParams) for SX126xSetPacketParams
+    radio.o(i.RadioSetPreamble) refers to radio.o(.bss) for SX126x
+    radio.o(i.RadioSetPublicNetwork) refers to sx126x_driver.o(i.SX126xSetPacketType) for SX126xSetPacketType
+    radio.o(i.RadioSetPublicNetwork) refers to sx126x_driver.o(i.SX126xWriteRegister) for SX126xWriteRegister
+    radio.o(i.RadioSetRxConfig) refers to sx126x_driver.o(i.SX126xSetStopRxTimerOnPreambleDetect) for SX126xSetStopRxTimerOnPreambleDetect
+    radio.o(i.RadioSetRxConfig) refers to sx126x_driver.o(i.SX126xSetLoRaSymbNumTimeout) for SX126xSetLoRaSymbNumTimeout
+    radio.o(i.RadioSetRxConfig) refers to radio.o(i.RadioSetModem) for RadioSetModem
+    radio.o(i.RadioSetRxConfig) refers to sx126x_driver.o(i.SX126xSetModulationParams) for SX126xSetModulationParams
+    radio.o(i.RadioSetRxConfig) refers to sx126x_driver.o(i.SX126xSetPacketParams) for SX126xSetPacketParams
+    radio.o(i.RadioSetRxConfig) refers to radio.o(.data) for RxContinuous
+    radio.o(i.RadioSetRxConfig) refers to radio.o(.bss) for SX126x
+    radio.o(i.RadioSetRxConfig) refers to radio.o(.constdata) for Bandwidths
+    radio.o(i.RadioSetRxDutyCycle) refers to sx126x_driver.o(i.SX126xSetRxDutyCycle) for SX126xSetRxDutyCycle
+    radio.o(i.RadioSetTxConfig) refers to sx126x_driver.o(i.SX126xSetStopRxTimerOnPreambleDetect) for SX126xSetStopRxTimerOnPreambleDetect
+    radio.o(i.RadioSetTxConfig) refers to sx126x_driver.o(i.SX126xSetLoRaSymbNumTimeout) for SX126xSetLoRaSymbNumTimeout
+    radio.o(i.RadioSetTxConfig) refers to radio.o(i.RadioStandby) for RadioStandby
+    radio.o(i.RadioSetTxConfig) refers to radio.o(i.RadioSetModem) for RadioSetModem
+    radio.o(i.RadioSetTxConfig) refers to sx126x_driver.o(i.SX126xSetModulationParams) for SX126xSetModulationParams
+    radio.o(i.RadioSetTxConfig) refers to sx126x_driver.o(i.SX126xSetPacketParams) for SX126xSetPacketParams
+    radio.o(i.RadioSetTxConfig) refers to sx126x_driver.o(i.SX126xSetTxParams) for SX126xSetTxParams
+    radio.o(i.RadioSetTxConfig) refers to radio.o(.bss) for SX126x
+    radio.o(i.RadioSetTxConfig) refers to radio.o(.constdata) for Bandwidths
+    radio.o(i.RadioSetTxConfig) refers to radio.o(.data) for MaxPayloadLength
+    radio.o(i.RadioSetTxContinuousWave) refers to sx126x_driver.o(i.SX126xSetRfFrequency) for SX126xSetRfFrequency
+    radio.o(i.RadioSetTxContinuousWave) refers to sx126x_driver.o(i.SX126xSetTxParams) for SX126xSetTxParams
+    radio.o(i.RadioSetTxContinuousWave) refers to sx126x_driver.o(i.SX126xSetTxContinuousWave) for SX126xSetTxContinuousWave
+    radio.o(i.RadioSetTxPower) refers to sx126x_driver.o(i.SX126xSetTxParams) for SX126xSetTxParams
+    radio.o(i.RadioSleep) refers to sx126x_driver.o(i.SX126xSetSleep) for SX126xSetSleep
+    radio.o(i.RadioSleep) refers to systick.o(i.delay_1ms) for delay_1ms
+    radio.o(i.RadioStandby) refers to sx126x_driver.o(i.SX126xSetStandby) for SX126xSetStandby
+    radio.o(i.RadioStartCad) refers to sx126x_driver.o(i.radio_tx_off) for radio_tx_off
+    radio.o(i.RadioStartCad) refers to sx126x_driver.o(i.radio_rx_on) for radio_rx_on
+    radio.o(i.RadioStartCad) refers to sx126x_driver.o(i.SX126xSetDioIrqParams) for SX126xSetDioIrqParams
+    radio.o(i.RadioStartCad) refers to sx126x_driver.o(i.SX126xSetCad) for SX126xSetCad
+    radio.o(i.RadioTx) refers to sx126x_driver.o(i.SX126xSetTx) for SX126xSetTx
+    radio.o(i.RadioTx) refers to radio.o(.data) for TxTimeout
+    sx126x_driver.o(i.BUSY_READ) refers to gd32f30x_gpio.o(i.gpio_input_bit_get) for gpio_input_bit_get
+    sx126x_driver.o(i.NRST_off) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    sx126x_driver.o(i.NRST_on) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    sx126x_driver.o(i.SX126xCalibrate) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xCalibrateImage) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xCheckDeviceReady) refers to sx126x_driver.o(i.SX126xGetOperatingMode) for SX126xGetOperatingMode
+    sx126x_driver.o(i.SX126xCheckDeviceReady) refers to sx126x_driver.o(i.SX126xWakeup) for SX126xWakeup
+    sx126x_driver.o(i.SX126xCheckDeviceReady) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xClearDeviceErrors) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xClearIrqStatus) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xGetDeviceErrors) refers to sx126x_driver.o(i.SX126xReadCommand) for SX126xReadCommand
+    sx126x_driver.o(i.SX126xGetIrqStatus) refers to sx126x_driver.o(i.SX126xReadCommand) for SX126xReadCommand
+    sx126x_driver.o(i.SX126xGetOperatingMode) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xGetPacketStatus) refers to sx126x_driver.o(i.SX126xReadCommand) for SX126xReadCommand
+    sx126x_driver.o(i.SX126xGetPacketStatus) refers to sx126x_driver.o(i.SX126xGetPacketType) for SX126xGetPacketType
+    sx126x_driver.o(i.SX126xGetPacketStatus) refers to utilities.o(i.memset1) for memset1
+    sx126x_driver.o(i.SX126xGetPacketStatus) refers to sx126x_driver.o(.data) for FrequencyError
+    sx126x_driver.o(i.SX126xGetPacketType) refers to sx126x_driver.o(.data) for PacketType
+    sx126x_driver.o(i.SX126xGetPayload) refers to sx126x_driver.o(i.SX126xGetRxBufferStatus) for SX126xGetRxBufferStatus
+    sx126x_driver.o(i.SX126xGetPayload) refers to sx126x_driver.o(i.SX126xReadBuffer) for SX126xReadBuffer
+    sx126x_driver.o(i.SX126xGetRandom) refers to sx126x_driver.o(i.SX126xSetRx) for SX126xSetRx
+    sx126x_driver.o(i.SX126xGetRandom) refers to systick.o(i.delay_1ms) for delay_1ms
+    sx126x_driver.o(i.SX126xGetRandom) refers to sx126x_driver.o(i.SX126xReadRegisters) for SX126xReadRegisters
+    sx126x_driver.o(i.SX126xGetRandom) refers to sx126x_driver.o(i.SX126xSetStandby) for SX126xSetStandby
+    sx126x_driver.o(i.SX126xGetRssiInst) refers to sx126x_driver.o(i.SX126xReadCommand) for SX126xReadCommand
+    sx126x_driver.o(i.SX126xGetRxBufferStatus) refers to sx126x_driver.o(i.SX126xReadCommand) for SX126xReadCommand
+    sx126x_driver.o(i.SX126xGetRxBufferStatus) refers to sx126x_driver.o(i.SX126xGetPacketType) for SX126xGetPacketType
+    sx126x_driver.o(i.SX126xGetRxBufferStatus) refers to sx126x_driver.o(i.SX126xReadRegister) for SX126xReadRegister
+    sx126x_driver.o(i.SX126xGetStatus) refers to sx126x_driver.o(i.SX126xReadCommand) for SX126xReadCommand
+    sx126x_driver.o(i.SX126xInit) refers to sx126x_driver.o(i.SX126xIoInit) for SX126xIoInit
+    sx126x_driver.o(i.SX126xInit) refers to sx126x_driver.o(i.SX126xReset) for SX126xReset
+    sx126x_driver.o(i.SX126xInit) refers to sx126x_driver.o(i.SX126xIoIrqInit) for SX126xIoIrqInit
+    sx126x_driver.o(i.SX126xInit) refers to sx126x_driver.o(i.SX126xWakeup) for SX126xWakeup
+    sx126x_driver.o(i.SX126xInit) refers to sx126x_driver.o(i.SX126xSetStandby) for SX126xSetStandby
+    sx126x_driver.o(i.SX126xIoDeInit) refers to sx126x_driver.o(i.radio_tx_off) for radio_tx_off
+    sx126x_driver.o(i.SX126xIoDeInit) refers to sx126x_driver.o(i.radio_rx_off) for radio_rx_off
+    sx126x_driver.o(i.SX126xIoInit) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    sx126x_driver.o(i.SX126xIoInit) refers to gd32f30x_gpio.o(i.gpio_init) for gpio_init
+    sx126x_driver.o(i.SX126xIoInit) refers to drv_spi.o(i.SPI_GPIO_Init) for SPI_GPIO_Init
+    sx126x_driver.o(i.SX126xReadBuffer) refers to sx126x_driver.o(i.SX126xCheckDeviceReady) for SX126xCheckDeviceReady
+    sx126x_driver.o(i.SX126xReadBuffer) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xReadBuffer) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xReadBuffer) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xReadBuffer) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xReadCommand) refers to sx126x_driver.o(i.SX126xCheckDeviceReady) for SX126xCheckDeviceReady
+    sx126x_driver.o(i.SX126xReadCommand) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xReadCommand) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xReadCommand) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xReadCommand) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xReadRegister) refers to sx126x_driver.o(i.SX126xReadRegisters) for SX126xReadRegisters
+    sx126x_driver.o(i.SX126xReadRegisters) refers to sx126x_driver.o(i.SX126xCheckDeviceReady) for SX126xCheckDeviceReady
+    sx126x_driver.o(i.SX126xReadRegisters) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xReadRegisters) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xReadRegisters) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xReadRegisters) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xRecoverIoInit) refers to sx126x_driver.o(i.SX126xIoIrqInit) for SX126xIoIrqInit
+    sx126x_driver.o(i.SX126xReset) refers to systick.o(i.delay_1ms) for delay_1ms
+    sx126x_driver.o(i.SX126xReset) refers to sx126x_driver.o(i.NRST_off) for NRST_off
+    sx126x_driver.o(i.SX126xReset) refers to sx126x_driver.o(i.NRST_on) for NRST_on
+    sx126x_driver.o(i.SX126xSendPayload) refers to sx126x_driver.o(i.SX126xSetPayload) for SX126xSetPayload
+    sx126x_driver.o(i.SX126xSendPayload) refers to sx126x_driver.o(i.SX126xSetTx) for SX126xSetTx
+    sx126x_driver.o(i.SX126xSetBufferBaseAddress) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetCad) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetCad) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetCadParams) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetCadParams) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetCrcPolynomial) refers to sx126x_driver.o(i.SX126xGetPacketType) for SX126xGetPacketType
+    sx126x_driver.o(i.SX126xSetCrcPolynomial) refers to sx126x_driver.o(i.SX126xWriteRegisters) for SX126xWriteRegisters
+    sx126x_driver.o(i.SX126xSetCrcSeed) refers to sx126x_driver.o(i.SX126xGetPacketType) for SX126xGetPacketType
+    sx126x_driver.o(i.SX126xSetCrcSeed) refers to sx126x_driver.o(i.SX126xWriteRegisters) for SX126xWriteRegisters
+    sx126x_driver.o(i.SX126xSetDio2AsRfSwitchCtrl) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetDio3AsTcxoCtrl) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetDioIrqParams) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetFs) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetFs) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetLoRaSymbNumTimeout) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetModulationParams) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetPaConfig) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetPacketParams) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetPacketType) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetPacketType) refers to sx126x_driver.o(.data) for PacketType
+    sx126x_driver.o(i.SX126xSetPayload) refers to sx126x_driver.o(i.SX126xWriteBuffer) for SX126xWriteBuffer
+    sx126x_driver.o(i.SX126xSetRegulatorMode) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetRfFrequency) refers to sx126x_driver.o(i.SX126xCalibrateImage) for SX126xCalibrateImage
+    sx126x_driver.o(i.SX126xSetRfFrequency) refers to dfltui.o(.text) for __aeabi_ui2d
+    sx126x_driver.o(i.SX126xSetRfFrequency) refers to ddiv.o(.text) for __aeabi_ddiv
+    sx126x_driver.o(i.SX126xSetRfFrequency) refers to dfixui.o(.text) for __aeabi_d2uiz
+    sx126x_driver.o(i.SX126xSetRfFrequency) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetRfFrequency) refers to sx126x_driver.o(.data) for ImageCalibrated
+    sx126x_driver.o(i.SX126xSetRx) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetRx) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetRxBoosted) refers to sx126x_driver.o(i.SX126xWriteRegister) for SX126xWriteRegister
+    sx126x_driver.o(i.SX126xSetRxBoosted) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetRxBoosted) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetRxDutyCycle) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetRxDutyCycle) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetRxTxFallbackMode) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetSleep) refers to sx126x_driver.o(i.radio_rx_off) for radio_rx_off
+    sx126x_driver.o(i.SX126xSetSleep) refers to sx126x_driver.o(i.radio_tx_off) for radio_tx_off
+    sx126x_driver.o(i.SX126xSetSleep) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetSleep) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetStandby) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetStandby) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetStopRxTimerOnPreambleDetect) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetSyncWord) refers to sx126x_driver.o(i.SX126xWriteRegisters) for SX126xWriteRegisters
+    sx126x_driver.o(i.SX126xSetTx) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetTx) refers to sx126x_driver.o(.data) for OperatingMode
+    sx126x_driver.o(i.SX126xSetTxContinuousWave) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetTxInfinitePreamble) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetTxParams) refers to sx126x_driver.o(i.SX126xSetPaConfig) for SX126xSetPaConfig
+    sx126x_driver.o(i.SX126xSetTxParams) refers to sx126x_driver.o(i.SX126xWriteRegister) for SX126xWriteRegister
+    sx126x_driver.o(i.SX126xSetTxParams) refers to sx126x_driver.o(i.SX126xWriteCommand) for SX126xWriteCommand
+    sx126x_driver.o(i.SX126xSetWhiteningSeed) refers to sx126x_driver.o(i.SX126xGetPacketType) for SX126xGetPacketType
+    sx126x_driver.o(i.SX126xSetWhiteningSeed) refers to sx126x_driver.o(i.SX126xReadRegister) for SX126xReadRegister
+    sx126x_driver.o(i.SX126xSetWhiteningSeed) refers to sx126x_driver.o(i.SX126xWriteRegister) for SX126xWriteRegister
+    sx126x_driver.o(i.SX126xWaitOnBusy) refers to sx126x_driver.o(i.BUSY_READ) for BUSY_READ
+    sx126x_driver.o(i.SX126xWakeup) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xWakeup) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xWakeup) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xWakeup) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xWriteBuffer) refers to sx126x_driver.o(i.SX126xCheckDeviceReady) for SX126xCheckDeviceReady
+    sx126x_driver.o(i.SX126xWriteBuffer) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xWriteBuffer) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xWriteBuffer) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xWriteBuffer) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xWriteCommand) refers to sx126x_driver.o(i.SX126xCheckDeviceReady) for SX126xCheckDeviceReady
+    sx126x_driver.o(i.SX126xWriteCommand) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xWriteCommand) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xWriteCommand) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xWriteCommand) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.SX126xWriteRegister) refers to sx126x_driver.o(i.SX126xWriteRegisters) for SX126xWriteRegisters
+    sx126x_driver.o(i.SX126xWriteRegisters) refers to sx126x_driver.o(i.SX126xCheckDeviceReady) for SX126xCheckDeviceReady
+    sx126x_driver.o(i.SX126xWriteRegisters) refers to sx126x_driver.o(i.radio_nss_low) for radio_nss_low
+    sx126x_driver.o(i.SX126xWriteRegisters) refers to drv_spi.o(i.drv_spi_read_write_byte) for drv_spi_read_write_byte
+    sx126x_driver.o(i.SX126xWriteRegisters) refers to sx126x_driver.o(i.radio_nss_high) for radio_nss_high
+    sx126x_driver.o(i.SX126xWriteRegisters) refers to sx126x_driver.o(i.SX126xWaitOnBusy) for SX126xWaitOnBusy
+    sx126x_driver.o(i.radio_nss_high) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    sx126x_driver.o(i.radio_nss_low) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    sx126x_driver.o(i.radio_rx_off) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    sx126x_driver.o(i.radio_rx_on) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    sx126x_driver.o(i.radio_tx_off) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    sx126x_driver.o(i.radio_tx_on) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    communication1.o(i.ModbusFun6_1) refers to gd32f30x_fmc.o(i.WriteAdd) for WriteAdd
+    communication1.o(i.ModbusFun6_1) refers to communication1.o(.bss) for DataReceive
+    communication1.o(i.ModbusFun6_1) refers to communication1.o(.data) for Address1
+    communication1.o(i.ModbusInit) refers to communication1.o(.bss) for ModbusTx
+    communication1.o(i.ModbusInit) refers to communication1.o(.data) for ModbusEquipmentExist
+    communication1.o(i.ModbusReceiveOrderCheck) refers to communication1.o(.bss) for ModbusRx
+    communication1.o(i.ModbusReceiveOrderCheck16) refers to communication1.o(.bss) for ModbusRx
+    communication1.o(i.ModbusReceiveOrderCheck3) refers to communication1.o(.bss) for ModbusRx
+    communication1.o(i.ModbusSendOrder) refers to communication1.o(i.RS485_Send_Data) for RS485_Send_Data
+    communication1.o(i.ModbusSendOrder) refers to communication1.o(.bss) for ModbusTx
+    communication1.o(i.Modbus_Event_1) refers to communication1.o(i.showData1_1) for showData1_1
+    communication1.o(i.Modbus_Event_1) refers to communication1.o(i.ModbusFun6_1) for ModbusFun6_1
+    communication1.o(i.Modbus_Event_1) refers to communication1.o(.bss) for ModbusRx
+    communication1.o(i.RS485_Read) refers to gd32f30x_gpio.o(i.gpio_bit_reset) for gpio_bit_reset
+    communication1.o(i.RS485_Send) refers to gd32f30x_gpio.o(i.gpio_bit_set) for gpio_bit_set
+    communication1.o(i.RS485_Send_Data) refers to communication1.o(i.RS485_Send) for RS485_Send
+    communication1.o(i.RS485_Send_Data) refers to gd32f30x_usart.o(i.usart_flag_get) for usart_flag_get
+    communication1.o(i.RS485_Send_Data) refers to gd32f30x_usart.o(i.usart_data_transmit) for usart_data_transmit
+    communication1.o(i.RS485_Send_Data) refers to communication1.o(i.RS485_Read) for RS485_Read
+    communication1.o(i.USART0_IRQHandler) refers to gd32f30x_usart.o(i.usart_interrupt_flag_get) for usart_interrupt_flag_get
+    communication1.o(i.USART0_IRQHandler) refers to gd32f30x_usart.o(i.usart_interrupt_flag_clear) for usart_interrupt_flag_clear
+    communication1.o(i.USART0_IRQHandler) refers to gd32f30x_usart.o(i.usart_data_receive) for usart_data_receive
+    communication1.o(i.USART0_IRQHandler) refers to communication1.o(.bss) for ModbusRx
+    communication1.o(i.communication1_init) refers to communication1.o(i.ModbusInit) for ModbusInit
+    communication1.o(i.crc16) refers to communication1.o(.constdata) for auchCRCHi
+    communication1.o(i.showData1_1) refers to communication1.o(i.crc16) for crc16
+    communication1.o(i.showData1_1) refers to communication1.o(i.ModbusSendOrder) for ModbusSendOrder
+    communication1.o(i.showData1_1) refers to communication1.o(.bss) for ModbusTx
+    communication1.o(i.showData1_1) refers to communication1.o(.data) for Address1
+    timer.o(i.TIMER1_IRQHandler) refers to gd32f30x_timer.o(i.timer_flag_clear) for timer_flag_clear
+    timer.o(i.TIMER1_IRQHandler) refers to timer.o(.data) for Timcounter
+    timer.o(i.TIMER1_IRQHandler) refers to main.o(.data) for countnum
+    timer.o(i.TIMER5_IRQHandler) refers to gd32f30x_timer.o(i.timer_interrupt_flag_get) for timer_interrupt_flag_get
+    timer.o(i.TIMER5_IRQHandler) refers to gd32f30x_timer.o(i.timer_interrupt_flag_clear) for timer_interrupt_flag_clear
+    timer.o(i.TIMER5_IRQHandler) refers to communication1.o(.bss) for ModbusRx
+    timer.o(i.timer1_init) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    timer.o(i.timer1_init) refers to gd32f30x_timer.o(i.timer_deinit) for timer_deinit
+    timer.o(i.timer1_init) refers to gd32f30x_timer.o(i.timer_init) for timer_init
+    timer.o(i.timer1_init) refers to gd32f30x_misc.o(i.nvic_irq_enable) for nvic_irq_enable
+    timer.o(i.timer1_init) refers to gd32f30x_timer.o(i.timer_interrupt_enable) for timer_interrupt_enable
+    timer.o(i.timer1_init) refers to gd32f30x_timer.o(i.timer_auto_reload_shadow_enable) for timer_auto_reload_shadow_enable
+    timer.o(i.timer1_init) refers to gd32f30x_timer.o(i.timer_enable) for timer_enable
+    timer.o(i.timer5_init) refers to gd32f30x_rcu.o(i.rcu_periph_clock_enable) for rcu_periph_clock_enable
+    timer.o(i.timer5_init) refers to gd32f30x_timer.o(i.timer_deinit) for timer_deinit
+    timer.o(i.timer5_init) refers to gd32f30x_timer.o(i.timer_init) for timer_init
+    timer.o(i.timer5_init) refers to gd32f30x_misc.o(i.nvic_irq_enable) for nvic_irq_enable
+    timer.o(i.timer5_init) refers to gd32f30x_timer.o(i.timer_interrupt_enable) for timer_interrupt_enable
+    timer.o(i.timer5_init) refers to gd32f30x_timer.o(i.timer_enable) for timer_enable
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    ddiv.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    ddiv.o(.text) refers to depilogue.o(.text) for _double_round
+    dfltui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfltui.o(.text) refers to depilogue.o(.text) for _double_epilogue
+    dfixui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfixui.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_gd32f30x_hd.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_gd32f30x_hd.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    depilogue.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    depilogue.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing gd32f30x_adc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_adc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_adc.o(i.adc_calibration_enable), (42 bytes).
+    Removing gd32f30x_adc.o(i.adc_channel_length_config), (70 bytes).
+    Removing gd32f30x_adc.o(i.adc_data_alignment_config), (22 bytes).
+    Removing gd32f30x_adc.o(i.adc_deinit), (88 bytes).
+    Removing gd32f30x_adc.o(i.adc_disable), (10 bytes).
+    Removing gd32f30x_adc.o(i.adc_discontinuous_mode_config), (76 bytes).
+    Removing gd32f30x_adc.o(i.adc_dma_mode_disable), (10 bytes).
+    Removing gd32f30x_adc.o(i.adc_dma_mode_enable), (10 bytes).
+    Removing gd32f30x_adc.o(i.adc_enable), (18 bytes).
+    Removing gd32f30x_adc.o(i.adc_external_trigger_config), (62 bytes).
+    Removing gd32f30x_adc.o(i.adc_external_trigger_source_config), (48 bytes).
+    Removing gd32f30x_adc.o(i.adc_flag_clear), (8 bytes).
+    Removing gd32f30x_adc.o(i.adc_flag_get), (14 bytes).
+    Removing gd32f30x_adc.o(i.adc_inserted_channel_config), (116 bytes).
+    Removing gd32f30x_adc.o(i.adc_inserted_channel_offset_config), (36 bytes).
+    Removing gd32f30x_adc.o(i.adc_inserted_data_read), (46 bytes).
+    Removing gd32f30x_adc.o(i.adc_interrupt_disable), (44 bytes).
+    Removing gd32f30x_adc.o(i.adc_interrupt_enable), (44 bytes).
+    Removing gd32f30x_adc.o(i.adc_interrupt_flag_clear), (8 bytes).
+    Removing gd32f30x_adc.o(i.adc_interrupt_flag_get), (88 bytes).
+    Removing gd32f30x_adc.o(i.adc_mode_config), (28 bytes).
+    Removing gd32f30x_adc.o(i.adc_oversample_mode_config), (58 bytes).
+    Removing gd32f30x_adc.o(i.adc_oversample_mode_disable), (14 bytes).
+    Removing gd32f30x_adc.o(i.adc_oversample_mode_enable), (14 bytes).
+    Removing gd32f30x_adc.o(i.adc_regular_channel_config), (172 bytes).
+    Removing gd32f30x_adc.o(i.adc_regular_data_read), (8 bytes).
+    Removing gd32f30x_adc.o(i.adc_resolution_config), (20 bytes).
+    Removing gd32f30x_adc.o(i.adc_software_trigger_enable), (30 bytes).
+    Removing gd32f30x_adc.o(i.adc_special_function_config), (90 bytes).
+    Removing gd32f30x_adc.o(i.adc_sync_mode_convert_value_read), (12 bytes).
+    Removing gd32f30x_adc.o(i.adc_tempsensor_vrefint_disable), (20 bytes).
+    Removing gd32f30x_adc.o(i.adc_tempsensor_vrefint_enable), (20 bytes).
+    Removing gd32f30x_adc.o(i.adc_watchdog_disable), (16 bytes).
+    Removing gd32f30x_adc.o(i.adc_watchdog_group_channel_enable), (64 bytes).
+    Removing gd32f30x_adc.o(i.adc_watchdog_single_channel_enable), (32 bytes).
+    Removing gd32f30x_adc.o(i.adc_watchdog_threshold_config), (14 bytes).
+    Removing gd32f30x_bkp.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_bkp.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_deinit), (12 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_flag_clear), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_flag_get), (24 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_interrupt_flag_clear), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_interrupt_flag_get), (24 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_read_data), (56 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_calibration_output_disable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_calibration_output_enable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_calibration_value_set), (24 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_clock_calibration_direction), (24 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_clock_output_select), (28 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_output_select), (28 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_signal_output_disable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_rtc_signal_output_enable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_tamper_active_level_set), (28 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_tamper_detection_disable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_tamper_detection_enable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_tamper_interrupt_disable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_tamper_interrupt_enable), (20 bytes).
+    Removing gd32f30x_bkp.o(i.bkp_write_data), (52 bytes).
+    Removing gd32f30x_can.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_can.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_can.o(i.can1_filter_start_bank), (56 bytes).
+    Removing gd32f30x_can.o(i.can_debug_freeze_disable), (32 bytes).
+    Removing gd32f30x_can.o(i.can_debug_freeze_enable), (32 bytes).
+    Removing gd32f30x_can.o(i.can_deinit), (32 bytes).
+    Removing gd32f30x_can.o(i.can_error_get), (12 bytes).
+    Removing gd32f30x_can.o(i.can_fifo_release), (32 bytes).
+    Removing gd32f30x_can.o(i.can_filter_init), (272 bytes).
+    Removing gd32f30x_can.o(i.can_flag_clear), (26 bytes).
+    Removing gd32f30x_can.o(i.can_flag_get), (30 bytes).
+    Removing gd32f30x_can.o(i.can_init), (290 bytes).
+    Removing gd32f30x_can.o(i.can_interrupt_disable), (8 bytes).
+    Removing gd32f30x_can.o(i.can_interrupt_enable), (8 bytes).
+    Removing gd32f30x_can.o(i.can_interrupt_flag_clear), (26 bytes).
+    Removing gd32f30x_can.o(i.can_interrupt_flag_get), (116 bytes).
+    Removing gd32f30x_can.o(i.can_message_receive), (228 bytes).
+    Removing gd32f30x_can.o(i.can_message_transmit), (336 bytes).
+    Removing gd32f30x_can.o(i.can_receive_error_number_get), (8 bytes).
+    Removing gd32f30x_can.o(i.can_receive_message_length_get), (26 bytes).
+    Removing gd32f30x_can.o(i.can_struct_para_init), (164 bytes).
+    Removing gd32f30x_can.o(i.can_time_trigger_mode_disable), (48 bytes).
+    Removing gd32f30x_can.o(i.can_time_trigger_mode_enable), (48 bytes).
+    Removing gd32f30x_can.o(i.can_transmission_stop), (80 bytes).
+    Removing gd32f30x_can.o(i.can_transmit_error_number_get), (10 bytes).
+    Removing gd32f30x_can.o(i.can_transmit_states), (124 bytes).
+    Removing gd32f30x_can.o(i.can_wakeup), (48 bytes).
+    Removing gd32f30x_can.o(i.can_working_mode_set), (168 bytes).
+    Removing gd32f30x_crc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_crc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_crc.o(i.crc_block_data_calculate), (36 bytes).
+    Removing gd32f30x_crc.o(i.crc_data_register_read), (12 bytes).
+    Removing gd32f30x_crc.o(i.crc_data_register_reset), (20 bytes).
+    Removing gd32f30x_crc.o(i.crc_deinit), (24 bytes).
+    Removing gd32f30x_crc.o(i.crc_free_data_register_read), (12 bytes).
+    Removing gd32f30x_crc.o(i.crc_free_data_register_write), (12 bytes).
+    Removing gd32f30x_crc.o(i.crc_single_data_calculate), (16 bytes).
+    Removing gd32f30x_ctc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_ctc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_clock_limit_value_config), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_counter_capture_value_read), (16 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_counter_direction_read), (24 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_counter_disable), (20 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_counter_enable), (20 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_counter_reload_value_config), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_counter_reload_value_read), (16 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_deinit), (20 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_flag_clear), (36 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_flag_get), (24 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_hardware_trim_mode_config), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_interrupt_disable), (16 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_interrupt_enable), (16 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_interrupt_flag_clear), (36 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_interrupt_flag_get), (56 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_irc48m_trim_value_config), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_irc48m_trim_value_read), (16 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_refsource_polarity_config), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_refsource_prescaler_config), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_refsource_signal_select), (28 bytes).
+    Removing gd32f30x_ctc.o(i.ctc_software_refsource_pulse_generate), (20 bytes).
+    Removing gd32f30x_dac.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_dac.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_data_set), (64 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_disable), (24 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_enable), (24 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_output_buffer_disable), (24 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_output_buffer_enable), (24 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_software_trigger_disable), (20 bytes).
+    Removing gd32f30x_dac.o(i.dac_concurrent_software_trigger_enable), (20 bytes).
+    Removing gd32f30x_dac.o(i.dac_disable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_dma_disable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_dma_enable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_lfsr_noise_config), (52 bytes).
+    Removing gd32f30x_dac.o(i.dac_output_buffer_enable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_output_value_get), (28 bytes).
+    Removing gd32f30x_dac.o(i.dac_software_trigger_disable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_software_trigger_enable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_triangle_noise_config), (52 bytes).
+    Removing gd32f30x_dac.o(i.dac_trigger_enable), (36 bytes).
+    Removing gd32f30x_dac.o(i.dac_trigger_source_config), (52 bytes).
+    Removing gd32f30x_dac.o(i.dac_wave_bit_width_config), (52 bytes).
+    Removing gd32f30x_dbg.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_dbg.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_deinit), (12 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_id_get), (12 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_low_power_disable), (16 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_low_power_enable), (16 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_periph_disable), (32 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_periph_enable), (32 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_trace_pin_enable), (20 bytes).
+    Removing gd32f30x_dbg.o(i.dbg_trace_pin_mode_set), (28 bytes).
+    Removing gd32f30x_dma.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_dma.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_dma.o(i.dma_channel_disable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_channel_enable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_circulation_disable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_circulation_enable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_deinit), (112 bytes).
+    Removing gd32f30x_dma.o(i.dma_flag_clear), (16 bytes).
+    Removing gd32f30x_dma.o(i.dma_flag_get), (24 bytes).
+    Removing gd32f30x_dma.o(i.dma_init), (302 bytes).
+    Removing gd32f30x_dma.o(i.dma_interrupt_disable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_interrupt_enable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_interrupt_flag_clear), (16 bytes).
+    Removing gd32f30x_dma.o(i.dma_interrupt_flag_get), (130 bytes).
+    Removing gd32f30x_dma.o(i.dma_memory_address_config), (36 bytes).
+    Removing gd32f30x_dma.o(i.dma_memory_increase_disable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_memory_increase_enable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_memory_to_memory_disable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_memory_to_memory_enable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_memory_width_config), (58 bytes).
+    Removing gd32f30x_dma.o(i.dma_periph_address_config), (36 bytes).
+    Removing gd32f30x_dma.o(i.dma_periph_and_channel_check), (24 bytes).
+    Removing gd32f30x_dma.o(i.dma_periph_increase_disable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_periph_increase_enable), (50 bytes).
+    Removing gd32f30x_dma.o(i.dma_periph_width_config), (58 bytes).
+    Removing gd32f30x_dma.o(i.dma_priority_config), (58 bytes).
+    Removing gd32f30x_dma.o(i.dma_struct_para_init), (28 bytes).
+    Removing gd32f30x_dma.o(i.dma_transfer_direction_config), (84 bytes).
+    Removing gd32f30x_dma.o(i.dma_transfer_number_config), (38 bytes).
+    Removing gd32f30x_dma.o(i.dma_transfer_number_get), (34 bytes).
+    Removing gd32f30x_enet.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_enet.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_exmc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_exmc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_ecc_get), (12 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_flag_clear), (20 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_flag_get), (28 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_interrupt_disable), (20 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_interrupt_enable), (20 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_interrupt_flag_clear), (22 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_interrupt_flag_get), (38 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_nand_deinit), (42 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_nand_disable), (22 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_nand_ecc_config), (48 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_nand_enable), (22 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_nand_init), (174 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_nand_struct_para_init), (54 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_norsram_deinit), (52 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_norsram_disable), (22 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_norsram_enable), (22 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_norsram_init), (284 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_norsram_page_size_config), (40 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_norsram_struct_para_init), (106 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_pccard_deinit), (40 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_pccard_disable), (24 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_pccard_enable), (24 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_pccard_init), (192 bytes).
+    Removing gd32f30x_exmc.o(i.exmc_pccard_struct_para_init), (60 bytes).
+    Removing gd32f30x_exti.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_exti.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_exti.o(i.exti_deinit), (28 bytes).
+    Removing gd32f30x_exti.o(i.exti_event_disable), (16 bytes).
+    Removing gd32f30x_exti.o(i.exti_event_enable), (16 bytes).
+    Removing gd32f30x_exti.o(i.exti_flag_clear), (12 bytes).
+    Removing gd32f30x_exti.o(i.exti_flag_get), (24 bytes).
+    Removing gd32f30x_exti.o(i.exti_init), (184 bytes).
+    Removing gd32f30x_exti.o(i.exti_interrupt_disable), (16 bytes).
+    Removing gd32f30x_exti.o(i.exti_interrupt_enable), (16 bytes).
+    Removing gd32f30x_exti.o(i.exti_interrupt_flag_clear), (12 bytes).
+    Removing gd32f30x_exti.o(i.exti_interrupt_flag_get), (36 bytes).
+    Removing gd32f30x_exti.o(i.exti_software_interrupt_disable), (16 bytes).
+    Removing gd32f30x_exti.o(i.exti_software_interrupt_enable), (16 bytes).
+    Removing gd32f30x_fmc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_fmc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_fmc.o(i.WriteAddress2), (24 bytes).
+    Removing gd32f30x_fmc.o(i.WriteReceiveMode), (24 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_bank0_erase), (68 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_bank0_lock), (20 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_bank0_unlock), (36 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_bank1_erase), (68 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_bank1_lock), (20 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_bank1_unlock), (36 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_flag_get), (36 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_interrupt_disable), (32 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_interrupt_enable), (32 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_interrupt_flag_clear), (32 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_interrupt_flag_get), (108 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_mass_erase), (200 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_word_program), (192 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_word_reprogram), (244 bytes).
+    Removing gd32f30x_fmc.o(i.fmc_wscnt_set), (24 bytes).
+    Removing gd32f30x_fmc.o(i.ob_data_get), (16 bytes).
+    Removing gd32f30x_fmc.o(i.ob_data_program), (68 bytes).
+    Removing gd32f30x_fmc.o(i.ob_erase), (140 bytes).
+    Removing gd32f30x_fmc.o(i.ob_lock), (20 bytes).
+    Removing gd32f30x_fmc.o(i.ob_security_protection_config), (132 bytes).
+    Removing gd32f30x_fmc.o(i.ob_spc_get), (24 bytes).
+    Removing gd32f30x_fmc.o(i.ob_unlock), (36 bytes).
+    Removing gd32f30x_fmc.o(i.ob_user_get), (16 bytes).
+    Removing gd32f30x_fmc.o(i.ob_user_write), (96 bytes).
+    Removing gd32f30x_fmc.o(i.ob_write_protection_enable), (168 bytes).
+    Removing gd32f30x_fmc.o(i.ob_write_protection_get), (12 bytes).
+    Removing gd32f30x_fwdgt.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_fwdgt.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_fwdgt.o(i.fwdgt_config), (104 bytes).
+    Removing gd32f30x_fwdgt.o(i.fwdgt_counter_reload), (16 bytes).
+    Removing gd32f30x_fwdgt.o(i.fwdgt_enable), (16 bytes).
+    Removing gd32f30x_fwdgt.o(i.fwdgt_flag_get), (24 bytes).
+    Removing gd32f30x_fwdgt.o(i.fwdgt_write_disable), (12 bytes).
+    Removing gd32f30x_fwdgt.o(i.fwdgt_write_enable), (16 bytes).
+    Removing gd32f30x_gpio.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_gpio.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_afio_deinit), (20 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_bit_write), (10 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_compensation_config), (24 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_compensation_flag_get), (24 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_deinit), (196 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_event_output_config), (28 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_event_output_disable), (20 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_event_output_enable), (20 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_exti_source_select), (152 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_input_port_get), (8 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_output_bit_get), (16 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_output_port_get), (8 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_pin_lock), (18 bytes).
+    Removing gd32f30x_gpio.o(i.gpio_port_write), (4 bytes).
+    Removing gd32f30x_i2c.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_i2c.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_ack_config), (24 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_ackpos_config), (22 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_clock_config), (320 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_data_receive), (8 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_data_transmit), (6 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_deinit), (64 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_disable), (10 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_dma_enable), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_dma_last_transfer_config), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_dualaddr_disable), (10 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_dualaddr_enable), (12 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_enable), (10 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_flag_clear), (40 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_flag_get), (30 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_interrupt_disable), (26 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_interrupt_enable), (26 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_interrupt_flag_clear), (44 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_interrupt_flag_get), (92 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_master_addressing), (20 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_mode_addr_config), (28 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_pec_enable), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_pec_transfer_enable), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_pec_value_get), (10 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_slave_response_to_gcall_config), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_smbus_arp_enable), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_smbus_issue_alert), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_smbus_type_config), (24 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_software_reset_config), (16 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_start_on_bus), (10 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_stop_on_bus), (10 bytes).
+    Removing gd32f30x_i2c.o(i.i2c_stretch_scl_low_config), (16 bytes).
+    Removing gd32f30x_misc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_misc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_misc.o(i.nvic_irq_disable), (24 bytes).
+    Removing gd32f30x_misc.o(i.nvic_vector_table_set), (20 bytes).
+    Removing gd32f30x_misc.o(i.system_lowpower_reset), (16 bytes).
+    Removing gd32f30x_misc.o(i.system_lowpower_set), (16 bytes).
+    Removing gd32f30x_misc.o(i.systick_clksource_set), (40 bytes).
+    Removing gd32f30x_pmu.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_pmu.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_backup_write_disable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_backup_write_enable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_deinit), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_flag_clear), (48 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_flag_get), (24 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_highdriver_mode_disable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_highdriver_mode_enable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_highdriver_switch_select), (44 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_ldo_output_select), (28 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_lowdriver_mode_disable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_lowdriver_mode_enable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_lowpower_driver_config), (28 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_lvd_disable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_lvd_select), (48 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_normalpower_driver_config), (28 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_to_deepsleepmode), (196 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_to_sleepmode), (28 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_to_standbymode), (52 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_wakeup_pin_disable), (20 bytes).
+    Removing gd32f30x_pmu.o(i.pmu_wakeup_pin_enable), (20 bytes).
+    Removing gd32f30x_pmu.o(.bss), (16 bytes).
+    Removing gd32f30x_rcu.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_rcu.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_adc_clock_config), (108 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_ahb_clock_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_all_reset_flag_clear), (20 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_apb1_clock_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_apb2_clock_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_bkp_reset_disable), (20 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_bkp_reset_enable), (20 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_ck48m_clock_config), (28 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_ckout0_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_deepsleep_voltage_set), (16 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_deinit), (84 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_flag_get), (36 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_hxtal_clock_monitor_disable), (20 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_hxtal_clock_monitor_enable), (20 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_interrupt_disable), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_interrupt_enable), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_interrupt_flag_clear), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_interrupt_flag_get), (36 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_irc8m_adjust_value_set), (28 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_lxtal_drive_capability_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_osci_bypass_mode_disable), (100 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_osci_bypass_mode_enable), (100 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_osci_off), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_osci_on), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_osci_stab_wait), (272 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_periph_clock_disable), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_periph_clock_sleep_disable), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_periph_clock_sleep_enable), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_pll_config), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_pllpresel_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_predv0_config), (32 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_rtc_clock_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_system_clock_source_config), (24 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_system_clock_source_get), (16 bytes).
+    Removing gd32f30x_rcu.o(i.rcu_usb_clock_config), (24 bytes).
+    Removing gd32f30x_rtc.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_rtc.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_alarm_config), (32 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_configuration_mode_enter), (20 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_configuration_mode_exit), (20 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_counter_get), (20 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_counter_set), (32 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_divider_get), (24 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_flag_clear), (16 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_flag_get), (24 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_interrupt_disable), (16 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_interrupt_enable), (16 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_lwoff_wait), (20 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_prescaler_set), (32 bytes).
+    Removing gd32f30x_rtc.o(i.rtc_register_sync_wait), (32 bytes).
+    Removing gd32f30x_sdio.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_sdio.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_bus_mode_set), (28 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_ceata_command_completion_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_ceata_command_completion_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_ceata_command_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_ceata_command_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_ceata_interrupt_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_ceata_interrupt_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_clock_config), (52 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_clock_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_clock_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_command_index_get), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_command_response_config), (44 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_csm_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_csm_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_data_config), (52 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_data_counter_get), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_data_read), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_data_transfer_config), (28 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_data_write), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_deinit), (28 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_dma_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_dma_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_dsm_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_dsm_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_fifo_counter_get), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_flag_clear), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_flag_get), (24 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_hardware_clock_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_hardware_clock_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_interrupt_disable), (16 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_interrupt_enable), (16 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_interrupt_flag_clear), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_interrupt_flag_get), (24 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_operation_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_operation_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_power_state_get), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_power_state_set), (12 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_readwait_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_readwait_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_readwait_type_set), (40 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_response_get), (56 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_stop_readwait_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_stop_readwait_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_suspend_disable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_suspend_enable), (20 bytes).
+    Removing gd32f30x_sdio.o(i.sdio_wait_type_set), (28 bytes).
+    Removing gd32f30x_spi.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_spi.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_spi.o(i.i2s_disable), (10 bytes).
+    Removing gd32f30x_spi.o(i.i2s_enable), (10 bytes).
+    Removing gd32f30x_spi.o(i.i2s_init), (28 bytes).
+    Removing gd32f30x_spi.o(i.i2s_psc_config), (170 bytes).
+    Removing gd32f30x_spi.o(i.qspi_disable), (14 bytes).
+    Removing gd32f30x_spi.o(i.qspi_enable), (14 bytes).
+    Removing gd32f30x_spi.o(i.qspi_io23_output_disable), (14 bytes).
+    Removing gd32f30x_spi.o(i.qspi_io23_output_enable), (14 bytes).
+    Removing gd32f30x_spi.o(i.qspi_read_enable), (14 bytes).
+    Removing gd32f30x_spi.o(i.qspi_write_enable), (14 bytes).
+    Removing gd32f30x_spi.o(i.spi_bidirectional_transfer_config), (26 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_error_clear), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_get), (16 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_next), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_off), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_on), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_polynomial_get), (8 bytes).
+    Removing gd32f30x_spi.o(i.spi_crc_polynomial_set), (12 bytes).
+    Removing gd32f30x_spi.o(i.spi_disable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_dma_disable), (22 bytes).
+    Removing gd32f30x_spi.o(i.spi_dma_enable), (22 bytes).
+    Removing gd32f30x_spi.o(i.spi_enable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_data_frame_format_config), (16 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_data_receive), (8 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_data_transmit), (4 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_deinit), (88 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_flag_get), (16 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_interrupt_disable), (48 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_interrupt_enable), (48 bytes).
+    Removing gd32f30x_spi.o(i.spi_i2s_interrupt_flag_get), (112 bytes).
+    Removing gd32f30x_spi.o(i.spi_init), (50 bytes).
+    Removing gd32f30x_spi.o(i.spi_nss_internal_high), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_nss_internal_low), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_nss_output_disable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_nss_output_enable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_nssp_mode_disable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_nssp_mode_enable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_struct_para_init), (18 bytes).
+    Removing gd32f30x_spi.o(i.spi_ti_mode_disable), (10 bytes).
+    Removing gd32f30x_spi.o(i.spi_ti_mode_enable), (10 bytes).
+    Removing gd32f30x_timer.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_timer.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_timer.o(i.timer_auto_reload_shadow_disable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_automatic_output_disable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_automatic_output_enable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_autoreload_value_config), (4 bytes).
+    Removing gd32f30x_timer.o(i.timer_break_config), (30 bytes).
+    Removing gd32f30x_timer.o(i.timer_break_disable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_break_enable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_break_struct_para_init), (18 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_capture_value_register_read), (42 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_complementary_output_polarity_config), (70 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_complementary_output_state_config), (70 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_control_shadow_config), (24 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_control_shadow_update_config), (26 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_dma_request_source_select), (26 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_input_capture_prescaler_config), (90 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_input_struct_para_init), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_clear_config), (90 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_config), (492 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_fast_config), (90 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_mode_config), (90 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_polarity_config), (92 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_pulse_value_config), (38 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_shadow_config), (90 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_state_config), (92 bytes).
+    Removing gd32f30x_timer.o(i.timer_channel_output_struct_para_init), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_counter_alignment), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_counter_down_direction), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_counter_read), (8 bytes).
+    Removing gd32f30x_timer.o(i.timer_counter_up_direction), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_counter_value_config), (4 bytes).
+    Removing gd32f30x_timer.o(i.timer_disable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_dma_disable), (8 bytes).
+    Removing gd32f30x_timer.o(i.timer_dma_enable), (8 bytes).
+    Removing gd32f30x_timer.o(i.timer_dma_transfer_config), (24 bytes).
+    Removing gd32f30x_timer.o(i.timer_event_software_generate), (8 bytes).
+    Removing gd32f30x_timer.o(i.timer_external_clock_mode0_config), (40 bytes).
+    Removing gd32f30x_timer.o(i.timer_external_clock_mode1_config), (32 bytes).
+    Removing gd32f30x_timer.o(i.timer_external_clock_mode1_disable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_external_trigger_as_external_clock_config), (166 bytes).
+    Removing gd32f30x_timer.o(i.timer_external_trigger_config), (30 bytes).
+    Removing gd32f30x_timer.o(i.timer_flag_get), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_hall_mode_config), (26 bytes).
+    Removing gd32f30x_timer.o(i.timer_input_capture_config), (326 bytes).
+    Removing gd32f30x_timer.o(i.timer_input_pwm_capture_config), (356 bytes).
+    Removing gd32f30x_timer.o(i.timer_input_trigger_source_select), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_internal_clock_config), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_internal_trigger_as_external_clock_config), (32 bytes).
+    Removing gd32f30x_timer.o(i.timer_interrupt_disable), (8 bytes).
+    Removing gd32f30x_timer.o(i.timer_master_output_trigger_source_select), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_master_slave_mode_config), (26 bytes).
+    Removing gd32f30x_timer.o(i.timer_output_value_selection_config), (34 bytes).
+    Removing gd32f30x_timer.o(i.timer_prescaler_config), (14 bytes).
+    Removing gd32f30x_timer.o(i.timer_prescaler_read), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_primary_output_config), (24 bytes).
+    Removing gd32f30x_timer.o(i.timer_quadrature_decoder_mode_config), (64 bytes).
+    Removing gd32f30x_timer.o(i.timer_repetition_value_config), (4 bytes).
+    Removing gd32f30x_timer.o(i.timer_single_pulse_mode_config), (26 bytes).
+    Removing gd32f30x_timer.o(i.timer_slave_mode_select), (16 bytes).
+    Removing gd32f30x_timer.o(i.timer_struct_para_init), (22 bytes).
+    Removing gd32f30x_timer.o(i.timer_update_event_disable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_update_event_enable), (10 bytes).
+    Removing gd32f30x_timer.o(i.timer_update_source_config), (26 bytes).
+    Removing gd32f30x_timer.o(i.timer_write_chxval_register_config), (34 bytes).
+    Removing gd32f30x_usart.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_usart.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_usart.o(i.usart_address_config), (20 bytes).
+    Removing gd32f30x_usart.o(i.usart_block_length_config), (28 bytes).
+    Removing gd32f30x_usart.o(i.usart_data_first_config), (20 bytes).
+    Removing gd32f30x_usart.o(i.usart_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_dma_receive_config), (16 bytes).
+    Removing gd32f30x_usart.o(i.usart_dma_transmit_config), (16 bytes).
+    Removing gd32f30x_usart.o(i.usart_flag_clear), (26 bytes).
+    Removing gd32f30x_usart.o(i.usart_guard_time_config), (24 bytes).
+    Removing gd32f30x_usart.o(i.usart_halfduplex_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_halfduplex_enable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_hardware_flow_cts_config), (16 bytes).
+    Removing gd32f30x_usart.o(i.usart_hardware_flow_rts_config), (16 bytes).
+    Removing gd32f30x_usart.o(i.usart_interrupt_disable), (26 bytes).
+    Removing gd32f30x_usart.o(i.usart_invert_config), (104 bytes).
+    Removing gd32f30x_usart.o(i.usart_irda_lowpower_config), (20 bytes).
+    Removing gd32f30x_usart.o(i.usart_irda_mode_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_irda_mode_enable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_lin_break_detection_length_config), (20 bytes).
+    Removing gd32f30x_usart.o(i.usart_lin_mode_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_lin_mode_enable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_mute_mode_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_mute_mode_enable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_mute_mode_wakeup_config), (16 bytes).
+    Removing gd32f30x_usart.o(i.usart_prescaler_config), (16 bytes).
+    Removing gd32f30x_usart.o(i.usart_receiver_timeout_disable), (14 bytes).
+    Removing gd32f30x_usart.o(i.usart_receiver_timeout_enable), (14 bytes).
+    Removing gd32f30x_usart.o(i.usart_receiver_timeout_threshold_config), (20 bytes).
+    Removing gd32f30x_usart.o(i.usart_send_break), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_smartcard_autoretry_config), (26 bytes).
+    Removing gd32f30x_usart.o(i.usart_smartcard_mode_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_smartcard_mode_enable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_smartcard_mode_nack_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_smartcard_mode_nack_enable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_synchronous_clock_config), (34 bytes).
+    Removing gd32f30x_usart.o(i.usart_synchronous_clock_disable), (10 bytes).
+    Removing gd32f30x_usart.o(i.usart_synchronous_clock_enable), (10 bytes).
+    Removing gd32f30x_wwdgt.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_wwdgt.o(.revsh_text), (4 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_config), (56 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_counter_update), (28 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_deinit), (20 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_enable), (20 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_flag_clear), (20 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_flag_get), (24 bytes).
+    Removing gd32f30x_wwdgt.o(i.wwdgt_interrupt_enable), (20 bytes).
+    Removing startup_gd32f30x_hd.o(HEAP), (1024 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing system_gd32f30x.o(.rev16_text), (4 bytes).
+    Removing system_gd32f30x.o(.revsh_text), (4 bytes).
+    Removing system_gd32f30x.o(i.SystemCoreClockUpdate), (184 bytes).
+    Removing gd32f30x_it.o(.rev16_text), (4 bytes).
+    Removing gd32f30x_it.o(.revsh_text), (4 bytes).
+    Removing systick.o(.rev16_text), (4 bytes).
+    Removing systick.o(.revsh_text), (4 bytes).
+    Removing systick.o(i.delay_ms), (36 bytes).
+    Removing usart0.o(.rev16_text), (4 bytes).
+    Removing usart0.o(.revsh_text), (4 bytes).
+    Removing usart0.o(i.Dis485), (20 bytes).
+    Removing usart0.o(i.EN485), (20 bytes).
+    Removing usart0.o(i.fputc), (44 bytes).
+    Removing usart0.o(.bss), (40 bytes).
+    Removing usart0.o(.data), (8 bytes).
+    Removing led.o(.rev16_text), (4 bytes).
+    Removing led.o(.revsh_text), (4 bytes).
+    Removing led.o(i.delay_mine), (12 bytes).
+    Removing drv_spi.o(.rev16_text), (4 bytes).
+    Removing drv_spi.o(.revsh_text), (4 bytes).
+    Removing radio.o(.rev16_text), (4 bytes).
+    Removing radio.o(.revsh_text), (4 bytes).
+    Removing radio.o(i.RadioClearDeviceErrors), (8 bytes).
+    Removing radio.o(i.RadioGetDeviceErrors), (16 bytes).
+    Removing radio.o(i.RadioGetPacketStatus), (12 bytes).
+    Removing radio.o(i.RadioGetStatus), (36 bytes).
+    Removing radio.o(i.RadioIoDeInit), (8 bytes).
+    Removing radio.o(i.RadioIsChannelFree), (8 bytes).
+    Removing radio.o(i.RadioOnDioIrq), (12 bytes).
+    Removing radio.o(i.RadioRandom), (54 bytes).
+    Removing radio.o(i.RadioRecoverIoInit), (8 bytes).
+    Removing radio.o(i.RadioRssi), (8 bytes).
+    Removing radio.o(i.RadioRxBoosted), (44 bytes).
+    Removing radio.o(i.RadioSetCadParams), (36 bytes).
+    Removing radio.o(i.RadioSetMaxPayloadLength), (56 bytes).
+    Removing radio.o(i.RadioSetPreamble), (28 bytes).
+    Removing radio.o(i.RadioSetRxConfig), (184 bytes).
+    Removing radio.o(i.RadioSetRxDutyCycle), (16 bytes).
+    Removing radio.o(i.RadioSetTxContinuousWave), (28 bytes).
+    Removing radio.o(i.RadioSetTxPower), (14 bytes).
+    Removing radio.o(i.RadioSleep), (32 bytes).
+    Removing radio.o(i.RadioStartCad), (30 bytes).
+    Removing radio.o(i.RadioTimeOnAir), (6 bytes).
+    Removing radio.o(i.RadioTimeOnAirAndPreamble), (8 bytes).
+    Removing radio.o(i.RadioTx), (20 bytes).
+    Removing sx126x_driver.o(.rev16_text), (4 bytes).
+    Removing sx126x_driver.o(.revsh_text), (4 bytes).
+    Removing sx126x_driver.o(i.SX126xCalibrate), (14 bytes).
+    Removing sx126x_driver.o(i.SX126xClearDeviceErrors), (18 bytes).
+    Removing sx126x_driver.o(i.SX126xGetDeviceErrors), (20 bytes).
+    Removing sx126x_driver.o(i.SX126xGetPaSelect), (4 bytes).
+    Removing sx126x_driver.o(i.SX126xGetPacketStatus), (124 bytes).
+    Removing sx126x_driver.o(i.SX126xGetRandom), (64 bytes).
+    Removing sx126x_driver.o(i.SX126xGetRssiInst), (32 bytes).
+    Removing sx126x_driver.o(i.SX126xGetStatus), (30 bytes).
+    Removing sx126x_driver.o(i.SX126xIoDeInit), (12 bytes).
+    Removing sx126x_driver.o(i.SX126xRecoverIoInit), (8 bytes).
+    Removing sx126x_driver.o(i.SX126xSetCad), (24 bytes).
+    Removing sx126x_driver.o(i.SX126xSetCadParams), (72 bytes).
+    Removing sx126x_driver.o(i.SX126xSetCrcPolynomial), (42 bytes).
+    Removing sx126x_driver.o(i.SX126xSetCrcSeed), (42 bytes).
+    Removing sx126x_driver.o(i.SX126xSetDio2AsRfSwitchCtrl), (14 bytes).
+    Removing sx126x_driver.o(i.SX126xSetDio3AsTcxoCtrl), (44 bytes).
+    Removing sx126x_driver.o(i.SX126xSetRxBoosted), (56 bytes).
+    Removing sx126x_driver.o(i.SX126xSetRxDutyCycle), (64 bytes).
+    Removing sx126x_driver.o(i.SX126xSetRxTxFallbackMode), (14 bytes).
+    Removing sx126x_driver.o(i.SX126xSetSleep), (32 bytes).
+    Removing sx126x_driver.o(i.SX126xSetSyncWord), (20 bytes).
+    Removing sx126x_driver.o(i.SX126xSetTxContinuousWave), (14 bytes).
+    Removing sx126x_driver.o(i.SX126xSetTxInfinitePreamble), (14 bytes).
+    Removing sx126x_driver.o(i.SX126xSetWhiteningSeed), (58 bytes).
+    Removing utilities.o(.rev16_text), (4 bytes).
+    Removing utilities.o(.revsh_text), (4 bytes).
+    Removing utilities.o(i.memcpy1), (24 bytes).
+    Removing utilities.o(i.memset1), (20 bytes).
+    Removing utilities.o(i.strncmp1), (38 bytes).
+    Removing delay.o(.rev16_text), (4 bytes).
+    Removing delay.o(.revsh_text), (4 bytes).
+    Removing delay.o(i.Delay_nus), (170 bytes).
+    Removing communication1.o(.rev16_text), (4 bytes).
+    Removing communication1.o(.revsh_text), (4 bytes).
+    Removing communication1.o(i.ModbusReceiveOrderCheck), (20 bytes).
+    Removing communication1.o(i.ModbusReceiveOrderCheck16), (20 bytes).
+    Removing communication1.o(i.ModbusReceiveOrderCheck3), (20 bytes).
+    Removing timer.o(.rev16_text), (4 bytes).
+    Removing timer.o(.revsh_text), (4 bytes).
+
+683 unused section(s) (total 24846 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/fpdiv.c                0x00000000   Number         0  ddiv.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixui.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  dfltui.o ABSOLUTE
+    ..\FWLib\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_hd.s 0x00000000   Number         0  startup_gd32f30x_hd.o ABSOLUTE
+    ..\FWLib\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c 0x00000000   Number         0  system_gd32f30x.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c 0x00000000   Number         0  gd32f30x_adc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c 0x00000000   Number         0  gd32f30x_bkp.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_can.c 0x00000000   Number         0  gd32f30x_can.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c 0x00000000   Number         0  gd32f30x_crc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c 0x00000000   Number         0  gd32f30x_ctc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c 0x00000000   Number         0  gd32f30x_dac.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c 0x00000000   Number         0  gd32f30x_dbg.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c 0x00000000   Number         0  gd32f30x_dma.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c 0x00000000   Number         0  gd32f30x_enet.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c 0x00000000   Number         0  gd32f30x_exmc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c 0x00000000   Number         0  gd32f30x_exti.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c 0x00000000   Number         0  gd32f30x_fmc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c 0x00000000   Number         0  gd32f30x_fwdgt.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c 0x00000000   Number         0  gd32f30x_gpio.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c 0x00000000   Number         0  gd32f30x_i2c.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c 0x00000000   Number         0  gd32f30x_misc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c 0x00000000   Number         0  gd32f30x_pmu.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c 0x00000000   Number         0  gd32f30x_rcu.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c 0x00000000   Number         0  gd32f30x_rtc.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c 0x00000000   Number         0  gd32f30x_sdio.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c 0x00000000   Number         0  gd32f30x_spi.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c 0x00000000   Number         0  gd32f30x_timer.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c 0x00000000   Number         0  gd32f30x_usart.o ABSOLUTE
+    ..\FWLib\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c 0x00000000   Number         0  gd32f30x_wwdgt.o ABSOLUTE
+    ..\Funcs\Drv_spi.c                       0x00000000   Number         0  drv_spi.o ABSOLUTE
+    ..\Funcs\communication1.c                0x00000000   Number         0  communication1.o ABSOLUTE
+    ..\Funcs\delay.c                         0x00000000   Number         0  delay.o ABSOLUTE
+    ..\Funcs\led.c                           0x00000000   Number         0  led.o ABSOLUTE
+    ..\Funcs\radio.c                         0x00000000   Number         0  radio.o ABSOLUTE
+    ..\Funcs\sx126x_driver.c                 0x00000000   Number         0  sx126x_driver.o ABSOLUTE
+    ..\Funcs\systick.c                       0x00000000   Number         0  systick.o ABSOLUTE
+    ..\Funcs\timer.c                         0x00000000   Number         0  timer.o ABSOLUTE
+    ..\Funcs\usart0.c                        0x00000000   Number         0  usart0.o ABSOLUTE
+    ..\Funcs\utilities.c                     0x00000000   Number         0  utilities.o ABSOLUTE
+    ..\\FWLib\\CMSIS\\GD\\GD32F30x\\Source\\system_gd32f30x.c 0x00000000   Number         0  system_gd32f30x.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_adc.c 0x00000000   Number         0  gd32f30x_adc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_bkp.c 0x00000000   Number         0  gd32f30x_bkp.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_can.c 0x00000000   Number         0  gd32f30x_can.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_crc.c 0x00000000   Number         0  gd32f30x_crc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_ctc.c 0x00000000   Number         0  gd32f30x_ctc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_dac.c 0x00000000   Number         0  gd32f30x_dac.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_dbg.c 0x00000000   Number         0  gd32f30x_dbg.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_dma.c 0x00000000   Number         0  gd32f30x_dma.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_enet.c 0x00000000   Number         0  gd32f30x_enet.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_exmc.c 0x00000000   Number         0  gd32f30x_exmc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_exti.c 0x00000000   Number         0  gd32f30x_exti.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_fmc.c 0x00000000   Number         0  gd32f30x_fmc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_fwdgt.c 0x00000000   Number         0  gd32f30x_fwdgt.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_gpio.c 0x00000000   Number         0  gd32f30x_gpio.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_i2c.c 0x00000000   Number         0  gd32f30x_i2c.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_misc.c 0x00000000   Number         0  gd32f30x_misc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_pmu.c 0x00000000   Number         0  gd32f30x_pmu.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_rcu.c 0x00000000   Number         0  gd32f30x_rcu.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_rtc.c 0x00000000   Number         0  gd32f30x_rtc.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_sdio.c 0x00000000   Number         0  gd32f30x_sdio.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_spi.c 0x00000000   Number         0  gd32f30x_spi.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_timer.c 0x00000000   Number         0  gd32f30x_timer.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_usart.c 0x00000000   Number         0  gd32f30x_usart.o ABSOLUTE
+    ..\\FWLib\\GD32F30x_standard_peripheral\\Source\\gd32f30x_wwdgt.c 0x00000000   Number         0  gd32f30x_wwdgt.o ABSOLUTE
+    ..\\Funcs\\Drv_spi.c                     0x00000000   Number         0  drv_spi.o ABSOLUTE
+    ..\\Funcs\\communication1.c              0x00000000   Number         0  communication1.o ABSOLUTE
+    ..\\Funcs\\delay.c                       0x00000000   Number         0  delay.o ABSOLUTE
+    ..\\Funcs\\led.c                         0x00000000   Number         0  led.o ABSOLUTE
+    ..\\Funcs\\radio.c                       0x00000000   Number         0  radio.o ABSOLUTE
+    ..\\Funcs\\sx126x_driver.c               0x00000000   Number         0  sx126x_driver.o ABSOLUTE
+    ..\\Funcs\\systick.c                     0x00000000   Number         0  systick.o ABSOLUTE
+    ..\\Funcs\\timer.c                       0x00000000   Number         0  timer.o ABSOLUTE
+    ..\\Funcs\\usart0.c                      0x00000000   Number         0  usart0.o ABSOLUTE
+    ..\\Funcs\\utilities.c                   0x00000000   Number         0  utilities.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    gd32f30x_it.c                            0x00000000   Number         0  gd32f30x_it.o ABSOLUTE
+    gd32f30x_it.c                            0x00000000   Number         0  gd32f30x_it.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    RESET                                    0x08000000   Section      304  startup_gd32f30x_hd.o(RESET)
+    .ARM.Collect$$$$00000000                 0x08000130   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x08000130   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x08000134   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x08000138   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x08000138   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x08000138   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x08000140   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x08000140   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x08000140   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x08000140   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x08000144   Section       36  startup_gd32f30x_hd.o(.text)
+    $v0                                      0x08000144   Number         0  startup_gd32f30x_hd.o(.text)
+    .text                                    0x08000168   Section        0  ddiv.o(.text)
+    .text                                    0x08000246   Section        0  dfltui.o(.text)
+    .text                                    0x08000260   Section        0  dfixui.o(.text)
+    .text                                    0x08000292   Section        0  llushr.o(.text)
+    .text                                    0x080002b2   Section        0  depilogue.o(.text)
+    .text                                    0x080002b2   Section        0  iusefp.o(.text)
+    .text                                    0x0800036c   Section       36  init.o(.text)
+    .text                                    0x08000390   Section        0  llshl.o(.text)
+    i.BUSY_READ                              0x080003b0   Section        0  sx126x_driver.o(i.BUSY_READ)
+    i.BusFault_Handler                       0x080003c4   Section        0  gd32f30x_it.o(i.BusFault_Handler)
+    i.DebugMon_Handler                       0x080003c8   Section        0  gd32f30x_it.o(i.DebugMon_Handler)
+    i.Delay_nms                              0x080003ca   Section        0  delay.o(i.Delay_nms)
+    i.HardFault_Handler                      0x0800048a   Section        0  gd32f30x_it.o(i.HardFault_Handler)
+    i.MISO_READ                              0x08000490   Section        0  drv_spi.o(i.MISO_READ)
+    i.MOSI_H                                 0x080004a0   Section        0  drv_spi.o(i.MOSI_H)
+    i.MOSI_L                                 0x080004b0   Section        0  drv_spi.o(i.MOSI_L)
+    i.MemManage_Handler                      0x080004c0   Section        0  gd32f30x_it.o(i.MemManage_Handler)
+    i.ModbusFun6_1                           0x080004c4   Section        0  communication1.o(i.ModbusFun6_1)
+    i.ModbusInit                             0x0800051c   Section        0  communication1.o(i.ModbusInit)
+    i.ModbusSendOrder                        0x0800057c   Section        0  communication1.o(i.ModbusSendOrder)
+    i.Modbus_Event_1                         0x080005a0   Section        0  communication1.o(i.Modbus_Event_1)
+    i.NMI_Handler                            0x08000600   Section        0  gd32f30x_it.o(i.NMI_Handler)
+    i.NRST_off                               0x08000604   Section        0  sx126x_driver.o(i.NRST_off)
+    i.NRST_on                                0x08000618   Section        0  sx126x_driver.o(i.NRST_on)
+    i.NVIC_SetPriority                       0x0800062c   Section        0  systick.o(i.NVIC_SetPriority)
+    NVIC_SetPriority                         0x0800062d   Thumb Code    32  systick.o(i.NVIC_SetPriority)
+    i.OrderSend                              0x08000654   Section        0  radio.o(i.OrderSend)
+    i.PendSV_Handler                         0x080006d4   Section        0  gd32f30x_it.o(i.PendSV_Handler)
+    i.RS485_Read                             0x080006d8   Section        0  communication1.o(i.RS485_Read)
+    i.RS485_Send                             0x080006ec   Section        0  communication1.o(i.RS485_Send)
+    i.RS485_Send_Data                        0x08000700   Section        0  communication1.o(i.RS485_Send_Data)
+    i.RadioClearIrqStatus                    0x08000748   Section        0  radio.o(i.RadioClearIrqStatus)
+    i.RadioGetBuffer                         0x08000754   Section        0  radio.o(i.RadioGetBuffer)
+    i.RadioGetIrqStatus                      0x08000768   Section        0  radio.o(i.RadioGetIrqStatus)
+    i.RadioInit                              0x08000770   Section        0  radio.o(i.RadioInit)
+    i.RadioRx                                0x080007a2   Section        0  radio.o(i.RadioRx)
+    i.RadioSend                              0x080007c4   Section        0  radio.o(i.RadioSend)
+    i.RadioSetChannel                        0x08000810   Section        0  radio.o(i.RadioSetChannel)
+    i.RadioSetModem                          0x0800081c   Section        0  radio.o(i.RadioSetModem)
+    i.RadioSetPublicNetwork                  0x08000854   Section        0  radio.o(i.RadioSetPublicNetwork)
+    i.RadioSetTxConfig                       0x08000890   Section        0  radio.o(i.RadioSetTxConfig)
+    i.RadioStandby                           0x08000940   Section        0  radio.o(i.RadioStandby)
+    i.SCLK_H                                 0x0800094c   Section        0  drv_spi.o(i.SCLK_H)
+    i.SCLK_L                                 0x0800095c   Section        0  drv_spi.o(i.SCLK_L)
+    i.SPI_GPIO_Init                          0x0800096c   Section        0  drv_spi.o(i.SPI_GPIO_Init)
+    i.SVC_Handler                            0x080009b4   Section        0  gd32f30x_it.o(i.SVC_Handler)
+    i.SX126xCalibrateImage                   0x080009b8   Section        0  sx126x_driver.o(i.SX126xCalibrateImage)
+    i.SX126xCheckDeviceReady                 0x08000a58   Section        0  sx126x_driver.o(i.SX126xCheckDeviceReady)
+    i.SX126xClearIrqStatus                   0x08000a72   Section        0  sx126x_driver.o(i.SX126xClearIrqStatus)
+    i.SX126xGetIrqStatus                     0x08000a8e   Section        0  sx126x_driver.o(i.SX126xGetIrqStatus)
+    i.SX126xGetOperatingMode                 0x08000aa8   Section        0  sx126x_driver.o(i.SX126xGetOperatingMode)
+    i.SX126xGetPacketType                    0x08000ab4   Section        0  sx126x_driver.o(i.SX126xGetPacketType)
+    i.SX126xGetPayload                       0x08000ac0   Section        0  sx126x_driver.o(i.SX126xGetPayload)
+    i.SX126xGetRxBufferStatus                0x08000aee   Section        0  sx126x_driver.o(i.SX126xGetRxBufferStatus)
+    i.SX126xInit                             0x08000b30   Section        0  sx126x_driver.o(i.SX126xInit)
+    i.SX126xIoInit                           0x08000b4c   Section        0  sx126x_driver.o(i.SX126xIoInit)
+    i.SX126xIoIrqInit                        0x08000ba0   Section        0  sx126x_driver.o(i.SX126xIoIrqInit)
+    i.SX126xReadBuffer                       0x08000ba2   Section        0  sx126x_driver.o(i.SX126xReadBuffer)
+    i.SX126xReadCommand                      0x08000be6   Section        0  sx126x_driver.o(i.SX126xReadCommand)
+    i.SX126xReadRegister                     0x08000c24   Section        0  sx126x_driver.o(i.SX126xReadRegister)
+    i.SX126xReadRegisters                    0x08000c38   Section        0  sx126x_driver.o(i.SX126xReadRegisters)
+    i.SX126xReset                            0x08000c82   Section        0  sx126x_driver.o(i.SX126xReset)
+    i.SX126xSendPayload                      0x08000ca0   Section        0  sx126x_driver.o(i.SX126xSendPayload)
+    i.SX126xSetBufferBaseAddress             0x08000cb8   Section        0  sx126x_driver.o(i.SX126xSetBufferBaseAddress)
+    i.SX126xSetDioIrqParams                  0x08000cd4   Section        0  sx126x_driver.o(i.SX126xSetDioIrqParams)
+    i.SX126xSetFs                            0x08000d0c   Section        0  sx126x_driver.o(i.SX126xSetFs)
+    i.SX126xSetLoRaSymbNumTimeout            0x08000d24   Section        0  sx126x_driver.o(i.SX126xSetLoRaSymbNumTimeout)
+    i.SX126xSetModulationParams              0x08000d32   Section        0  sx126x_driver.o(i.SX126xSetModulationParams)
+    i.SX126xSetPaConfig                      0x08000d60   Section        0  sx126x_driver.o(i.SX126xSetPaConfig)
+    i.SX126xSetPacketParams                  0x08000d86   Section        0  sx126x_driver.o(i.SX126xSetPacketParams)
+    i.SX126xSetPacketType                    0x08000dc4   Section        0  sx126x_driver.o(i.SX126xSetPacketType)
+    i.SX126xSetPayload                       0x08000de0   Section        0  sx126x_driver.o(i.SX126xSetPayload)
+    i.SX126xSetRegulatorMode                 0x08000df2   Section        0  sx126x_driver.o(i.SX126xSetRegulatorMode)
+    i.SX126xSetRfFrequency                   0x08000e00   Section        0  sx126x_driver.o(i.SX126xSetRfFrequency)
+    i.SX126xSetRx                            0x08000e74   Section        0  sx126x_driver.o(i.SX126xSetRx)
+    i.SX126xSetStandby                       0x08000ea0   Section        0  sx126x_driver.o(i.SX126xSetStandby)
+    i.SX126xSetStopRxTimerOnPreambleDetect   0x08000ec8   Section        0  sx126x_driver.o(i.SX126xSetStopRxTimerOnPreambleDetect)
+    i.SX126xSetTx                            0x08000ed8   Section        0  sx126x_driver.o(i.SX126xSetTx)
+    i.SX126xSetTxParams                      0x08000f04   Section        0  sx126x_driver.o(i.SX126xSetTxParams)
+    i.SX126xWaitOnBusy                       0x08000f36   Section        0  sx126x_driver.o(i.SX126xWaitOnBusy)
+    i.SX126xWakeup                           0x08000f44   Section        0  sx126x_driver.o(i.SX126xWakeup)
+    i.SX126xWriteBuffer                      0x08000f60   Section        0  sx126x_driver.o(i.SX126xWriteBuffer)
+    i.SX126xWriteCommand                     0x08000f9c   Section        0  sx126x_driver.o(i.SX126xWriteCommand)
+    i.SX126xWriteRegister                    0x08000fd6   Section        0  sx126x_driver.o(i.SX126xWriteRegister)
+    i.SX126xWriteRegisters                   0x08000fe6   Section        0  sx126x_driver.o(i.SX126xWriteRegisters)
+    i.SysTick_Handler                        0x08001028   Section        0  gd32f30x_it.o(i.SysTick_Handler)
+    i.SystemInit                             0x08001030   Section        0  system_gd32f30x.o(i.SystemInit)
+    i.TIMER1_IRQHandler                      0x080010a0   Section        0  timer.o(i.TIMER1_IRQHandler)
+    i.TIMER5_IRQHandler                      0x08001100   Section        0  timer.o(i.TIMER5_IRQHandler)
+    i.USART0_IRQHandler                      0x08001134   Section        0  communication1.o(i.USART0_IRQHandler)
+    i.UsageFault_Handler                     0x08001180   Section        0  gd32f30x_it.o(i.UsageFault_Handler)
+    i.WriteAdd                               0x08001184   Section        0  gd32f30x_fmc.o(i.WriteAdd)
+    i.__scatterload_copy                     0x080011a8   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x080011b6   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x080011b8   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.communication1_init                    0x080011c6   Section        0  communication1.o(i.communication1_init)
+    i.crc16                                  0x080011d0   Section        0  communication1.o(i.crc16)
+    i.dac_data_set                           0x08001208   Section        0  gd32f30x_dac.o(i.dac_data_set)
+    i.dac_deinit                             0x08001260   Section        0  gd32f30x_dac.o(i.dac_deinit)
+    i.dac_enable                             0x08001274   Section        0  gd32f30x_dac.o(i.dac_enable)
+    i.dac_init                               0x08001298   Section        0  gd32f30x_dac.o(i.dac_init)
+    i.dac_output_buffer_disable              0x08001308   Section        0  gd32f30x_dac.o(i.dac_output_buffer_disable)
+    i.dac_trigger_disable                    0x0800132c   Section        0  gd32f30x_dac.o(i.dac_trigger_disable)
+    i.dac_wave_mode_config                   0x08001350   Section        0  gd32f30x_dac.o(i.dac_wave_mode_config)
+    i.dbg_trace_pin_disable                  0x08001384   Section        0  gd32f30x_dbg.o(i.dbg_trace_pin_disable)
+    i.delay_1ms                              0x08001398   Section        0  systick.o(i.delay_1ms)
+    i.delay_decrement                        0x080013ac   Section        0  systick.o(i.delay_decrement)
+    i.delay_us                               0x080013c4   Section        0  systick.o(i.delay_us)
+    i.drv_spi_read_write_byte                0x080013ec   Section        0  drv_spi.o(i.drv_spi_read_write_byte)
+    i.fmc_bank0_ready_wait                   0x08001432   Section        0  gd32f30x_fmc.o(i.fmc_bank0_ready_wait)
+    i.fmc_bank0_state_get                    0x08001454   Section        0  gd32f30x_fmc.o(i.fmc_bank0_state_get)
+    i.fmc_bank1_ready_wait                   0x08001484   Section        0  gd32f30x_fmc.o(i.fmc_bank1_ready_wait)
+    i.fmc_bank1_state_get                    0x080014a8   Section        0  gd32f30x_fmc.o(i.fmc_bank1_state_get)
+    i.fmc_flag_clear                         0x080014d8   Section        0  gd32f30x_fmc.o(i.fmc_flag_clear)
+    i.fmc_halfword_program                   0x080014f8   Section        0  gd32f30x_fmc.o(i.fmc_halfword_program)
+    i.fmc_lock                               0x080015b8   Section        0  gd32f30x_fmc.o(i.fmc_lock)
+    i.fmc_page_erase                         0x080015e4   Section        0  gd32f30x_fmc.o(i.fmc_page_erase)
+    i.fmc_read_Address2_16b                  0x080016d0   Section        0  gd32f30x_fmc.o(i.fmc_read_Address2_16b)
+    i.fmc_read_ReceiveMode_16b               0x080016d6   Section        0  gd32f30x_fmc.o(i.fmc_read_ReceiveMode_16b)
+    i.fmc_read_data_16b                      0x080016dc   Section        0  gd32f30x_fmc.o(i.fmc_read_data_16b)
+    i.fmc_unlock                             0x080016e4   Section        0  gd32f30x_fmc.o(i.fmc_unlock)
+    i.fmc_write_data_16b                     0x08001728   Section        0  gd32f30x_fmc.o(i.fmc_write_data_16b)
+    i.gpio_bit_reset                         0x08001830   Section        0  gd32f30x_gpio.o(i.gpio_bit_reset)
+    i.gpio_bit_set                           0x08001834   Section        0  gd32f30x_gpio.o(i.gpio_bit_set)
+    i.gpio_init                              0x08001838   Section        0  gd32f30x_gpio.o(i.gpio_init)
+    i.gpio_input_bit_get                     0x080018f4   Section        0  gd32f30x_gpio.o(i.gpio_input_bit_get)
+    i.gpio_pin_remap_config                  0x08001904   Section        0  gd32f30x_gpio.o(i.gpio_pin_remap_config)
+    i.led_init                               0x08001994   Section        0  led.o(i.led_init)
+    i.led_off                                0x080019b8   Section        0  led.o(i.led_off)
+    i.led_on                                 0x080019cc   Section        0  led.o(i.led_on)
+    i.main                                   0x080019e0   Section        0  main.o(i.main)
+    i.nvic_irq_enable                        0x08001dac   Section        0  gd32f30x_misc.o(i.nvic_irq_enable)
+    i.nvic_priority_group_set                0x08001e70   Section        0  gd32f30x_misc.o(i.nvic_priority_group_set)
+    i.radio_nss_high                         0x08001e84   Section        0  sx126x_driver.o(i.radio_nss_high)
+    i.radio_nss_low                          0x08001e98   Section        0  sx126x_driver.o(i.radio_nss_low)
+    i.radio_rx_off                           0x08001eac   Section        0  sx126x_driver.o(i.radio_rx_off)
+    i.radio_rx_on                            0x08001ec0   Section        0  sx126x_driver.o(i.radio_rx_on)
+    i.radio_tx_off                           0x08001ed4   Section        0  sx126x_driver.o(i.radio_tx_off)
+    i.radio_tx_on                            0x08001ee8   Section        0  sx126x_driver.o(i.radio_tx_on)
+    i.rcu_clock_freq_get                     0x08001efc   Section        0  gd32f30x_rcu.o(i.rcu_clock_freq_get)
+    i.rcu_periph_clock_enable                0x08002054   Section        0  gd32f30x_rcu.o(i.rcu_periph_clock_enable)
+    i.rcu_periph_reset_disable               0x08002074   Section        0  gd32f30x_rcu.o(i.rcu_periph_reset_disable)
+    i.rcu_periph_reset_enable                0x08002094   Section        0  gd32f30x_rcu.o(i.rcu_periph_reset_enable)
+    i.showData1_1                            0x080020b4   Section        0  communication1.o(i.showData1_1)
+    i.system_clock_120m_hxtal                0x08002118   Section        0  system_gd32f30x.o(i.system_clock_120m_hxtal)
+    system_clock_120m_hxtal                  0x08002119   Thumb Code   258  system_gd32f30x.o(i.system_clock_120m_hxtal)
+    i.system_clock_config                    0x0800222c   Section        0  system_gd32f30x.o(i.system_clock_config)
+    system_clock_config                      0x0800222d   Thumb Code     8  system_gd32f30x.o(i.system_clock_config)
+    i.systick_config                         0x08002234   Section        0  systick.o(i.systick_config)
+    i.timer1_init                            0x08002284   Section        0  timer.o(i.timer1_init)
+    i.timer5_init                            0x080022e8   Section        0  timer.o(i.timer5_init)
+    i.timer_auto_reload_shadow_enable        0x0800233c   Section        0  gd32f30x_timer.o(i.timer_auto_reload_shadow_enable)
+    i.timer_deinit                           0x08002348   Section        0  gd32f30x_timer.o(i.timer_deinit)
+    i.timer_enable                           0x08002424   Section        0  gd32f30x_timer.o(i.timer_enable)
+    i.timer_flag_clear                       0x0800242e   Section        0  gd32f30x_timer.o(i.timer_flag_clear)
+    i.timer_init                             0x08002434   Section        0  gd32f30x_timer.o(i.timer_init)
+    i.timer_interrupt_enable                 0x080024cc   Section        0  gd32f30x_timer.o(i.timer_interrupt_enable)
+    i.timer_interrupt_flag_clear             0x080024d4   Section        0  gd32f30x_timer.o(i.timer_interrupt_flag_clear)
+    i.timer_interrupt_flag_get               0x080024da   Section        0  gd32f30x_timer.o(i.timer_interrupt_flag_get)
+    i.usart0_config                          0x080024f4   Section        0  usart0.o(i.usart0_config)
+    i.usart_baudrate_set                     0x08002594   Section        0  gd32f30x_usart.o(i.usart_baudrate_set)
+    i.usart_data_receive                     0x08002624   Section        0  gd32f30x_usart.o(i.usart_data_receive)
+    i.usart_data_transmit                    0x0800262e   Section        0  gd32f30x_usart.o(i.usart_data_transmit)
+    i.usart_deinit                           0x08002638   Section        0  gd32f30x_usart.o(i.usart_deinit)
+    i.usart_enable                           0x080026c8   Section        0  gd32f30x_usart.o(i.usart_enable)
+    i.usart_flag_get                         0x080026d2   Section        0  gd32f30x_usart.o(i.usart_flag_get)
+    i.usart_interrupt_enable                 0x080026f0   Section        0  gd32f30x_usart.o(i.usart_interrupt_enable)
+    i.usart_interrupt_flag_clear             0x0800270a   Section        0  gd32f30x_usart.o(i.usart_interrupt_flag_clear)
+    i.usart_interrupt_flag_get               0x08002724   Section        0  gd32f30x_usart.o(i.usart_interrupt_flag_get)
+    i.usart_parity_config                    0x0800275c   Section        0  gd32f30x_usart.o(i.usart_parity_config)
+    i.usart_receive_config                   0x0800276c   Section        0  gd32f30x_usart.o(i.usart_receive_config)
+    i.usart_stop_bit_set                     0x0800277c   Section        0  gd32f30x_usart.o(i.usart_stop_bit_set)
+    i.usart_transmit_config                  0x0800278c   Section        0  gd32f30x_usart.o(i.usart_transmit_config)
+    i.usart_word_length_set                  0x0800279c   Section        0  gd32f30x_usart.o(i.usart_word_length_set)
+    .constdata                               0x080027b0   Section      200  radio.o(.constdata)
+    .constdata                               0x08002878   Section      512  communication1.o(.constdata)
+    .data                                    0x20000000   Section       28  main.o(.data)
+    .data                                    0x2000001c   Section        4  system_gd32f30x.o(.data)
+    .data                                    0x20000020   Section        4  systick.o(.data)
+    delay                                    0x20000020   Data           4  systick.o(.data)
+    .data                                    0x20000024   Section       16  radio.o(.data)
+    RadioPublicNetwork                       0x20000024   Data           2  radio.o(.data)
+    .data                                    0x20000034   Section        9  sx126x_driver.o(.data)
+    OperatingMode                            0x20000034   Data           1  sx126x_driver.o(.data)
+    PacketType                               0x20000035   Data           1  sx126x_driver.o(.data)
+    ImageCalibrated                          0x2000003c   Data           1  sx126x_driver.o(.data)
+    .data                                    0x2000003e   Section       20  communication1.o(.data)
+    .data                                    0x20000052   Section        4  timer.o(.data)
+    .bss                                     0x20000058   Section      366  main.o(.bss)
+    .bss                                     0x200001c8   Section       60  radio.o(.bss)
+    .bss                                     0x20000204   Section      798  communication1.o(.bss)
+    STACK                                    0x20000528   Section     1024  startup_gd32f30x_hd.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPi3$EXTD16$VFPS$VFMA$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_Size                           0x00000130   Number         0  startup_gd32f30x_hd.o ABSOLUTE
+    __Vectors                                0x08000000   Data           4  startup_gd32f30x_hd.o(RESET)
+    __Vectors_End                            0x08000130   Data           0  startup_gd32f30x_hd.o(RESET)
+    __main                                   0x08000131   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x08000131   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x08000135   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x08000139   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x08000139   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x08000139   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x08000139   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x08000141   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x08000141   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x08000145   Thumb Code     8  startup_gd32f30x_hd.o(.text)
+    ADC0_1_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    ADC2_IRQHandler                          0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    CAN0_EWMC_IRQHandler                     0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    CAN0_RX1_IRQHandler                      0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel0_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel1_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel2_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel3_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel4_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel5_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA0_Channel6_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA1_Channel0_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA1_Channel1_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA1_Channel2_IRQHandler                 0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    DMA1_Channel3_4_IRQHandler               0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXMC_IRQHandler                          0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI0_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI10_15_IRQHandler                     0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI1_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI2_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI3_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI4_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    EXTI5_9_IRQHandler                       0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    FMC_IRQHandler                           0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    I2C0_ER_IRQHandler                       0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    I2C0_EV_IRQHandler                       0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    I2C1_ER_IRQHandler                       0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    I2C1_EV_IRQHandler                       0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    LVD_IRQHandler                           0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    RCU_CTC_IRQHandler                       0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    RTC_Alarm_IRQHandler                     0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    RTC_IRQHandler                           0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    SDIO_IRQHandler                          0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    SPI0_IRQHandler                          0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    SPI1_IRQHandler                          0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    SPI2_IRQHandler                          0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TAMPER_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER0_BRK_IRQHandler                    0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER0_Channel_IRQHandler                0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER0_TRG_CMT_IRQHandler                0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER0_UP_IRQHandler                     0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER2_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER3_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER4_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER6_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER7_BRK_IRQHandler                    0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER7_Channel_IRQHandler                0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER7_TRG_CMT_IRQHandler                0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    TIMER7_UP_IRQHandler                     0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    UART3_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    UART4_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    USART1_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    USART2_IRQHandler                        0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    USBD_HP_CAN0_TX_IRQHandler               0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    USBD_LP_CAN0_RX0_IRQHandler              0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    USBD_WKUP_IRQHandler                     0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    WWDGT_IRQHandler                         0x0800015f   Thumb Code     0  startup_gd32f30x_hd.o(.text)
+    __aeabi_ddiv                             0x08000169   Thumb Code   222  ddiv.o(.text)
+    __aeabi_ui2d                             0x08000247   Thumb Code    26  dfltui.o(.text)
+    __aeabi_d2uiz                            0x08000261   Thumb Code    50  dfixui.o(.text)
+    __aeabi_llsr                             0x08000293   Thumb Code    32  llushr.o(.text)
+    _ll_ushift_r                             0x08000293   Thumb Code     0  llushr.o(.text)
+    __I$use$fp                               0x080002b3   Thumb Code     0  iusefp.o(.text)
+    _double_round                            0x080002b3   Thumb Code    30  depilogue.o(.text)
+    _double_epilogue                         0x080002d1   Thumb Code   156  depilogue.o(.text)
+    __scatterload                            0x0800036d   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x0800036d   Thumb Code     0  init.o(.text)
+    __aeabi_llsl                             0x08000391   Thumb Code    30  llshl.o(.text)
+    _ll_shift_l                              0x08000391   Thumb Code     0  llshl.o(.text)
+    BUSY_READ                                0x080003b1   Thumb Code    14  sx126x_driver.o(i.BUSY_READ)
+    BusFault_Handler                         0x080003c5   Thumb Code     4  gd32f30x_it.o(i.BusFault_Handler)
+    DebugMon_Handler                         0x080003c9   Thumb Code     2  gd32f30x_it.o(i.DebugMon_Handler)
+    Delay_nms                                0x080003cb   Thumb Code   192  delay.o(i.Delay_nms)
+    HardFault_Handler                        0x0800048b   Thumb Code     4  gd32f30x_it.o(i.HardFault_Handler)
+    MISO_READ                                0x08000491   Thumb Code    12  drv_spi.o(i.MISO_READ)
+    MOSI_H                                   0x080004a1   Thumb Code    12  drv_spi.o(i.MOSI_H)
+    MOSI_L                                   0x080004b1   Thumb Code    12  drv_spi.o(i.MOSI_L)
+    MemManage_Handler                        0x080004c1   Thumb Code     4  gd32f30x_it.o(i.MemManage_Handler)
+    ModbusFun6_1                             0x080004c5   Thumb Code    70  communication1.o(i.ModbusFun6_1)
+    ModbusInit                               0x0800051d   Thumb Code    82  communication1.o(i.ModbusInit)
+    ModbusSendOrder                          0x0800057d   Thumb Code    26  communication1.o(i.ModbusSendOrder)
+    Modbus_Event_1                           0x080005a1   Thumb Code    88  communication1.o(i.Modbus_Event_1)
+    NMI_Handler                              0x08000601   Thumb Code     2  gd32f30x_it.o(i.NMI_Handler)
+    NRST_off                                 0x08000605   Thumb Code    14  sx126x_driver.o(i.NRST_off)
+    NRST_on                                  0x08000619   Thumb Code    14  sx126x_driver.o(i.NRST_on)
+    OrderSend                                0x08000655   Thumb Code   112  radio.o(i.OrderSend)
+    PendSV_Handler                           0x080006d5   Thumb Code     2  gd32f30x_it.o(i.PendSV_Handler)
+    RS485_Read                               0x080006d9   Thumb Code    14  communication1.o(i.RS485_Read)
+    RS485_Send                               0x080006ed   Thumb Code    14  communication1.o(i.RS485_Send)
+    RS485_Send_Data                          0x08000701   Thumb Code    66  communication1.o(i.RS485_Send_Data)
+    RadioClearIrqStatus                      0x08000749   Thumb Code    12  radio.o(i.RadioClearIrqStatus)
+    RadioGetBuffer                           0x08000755   Thumb Code    20  radio.o(i.RadioGetBuffer)
+    RadioGetIrqStatus                        0x08000769   Thumb Code     8  radio.o(i.RadioGetIrqStatus)
+    RadioInit                                0x08000771   Thumb Code    50  radio.o(i.RadioInit)
+    RadioRx                                  0x080007a3   Thumb Code    34  radio.o(i.RadioRx)
+    RadioSend                                0x080007c5   Thumb Code    70  radio.o(i.RadioSend)
+    RadioSetChannel                          0x08000811   Thumb Code    12  radio.o(i.RadioSetChannel)
+    RadioSetModem                            0x0800081d   Thumb Code    52  radio.o(i.RadioSetModem)
+    RadioSetPublicNetwork                    0x08000855   Thumb Code    58  radio.o(i.RadioSetPublicNetwork)
+    RadioSetTxConfig                         0x08000891   Thumb Code   162  radio.o(i.RadioSetTxConfig)
+    RadioStandby                             0x08000941   Thumb Code    10  radio.o(i.RadioStandby)
+    SCLK_H                                   0x0800094d   Thumb Code    12  drv_spi.o(i.SCLK_H)
+    SCLK_L                                   0x0800095d   Thumb Code    12  drv_spi.o(i.SCLK_L)
+    SPI_GPIO_Init                            0x0800096d   Thumb Code    64  drv_spi.o(i.SPI_GPIO_Init)
+    SVC_Handler                              0x080009b5   Thumb Code     2  gd32f30x_it.o(i.SVC_Handler)
+    SX126xCalibrateImage                     0x080009b9   Thumb Code   134  sx126x_driver.o(i.SX126xCalibrateImage)
+    SX126xCheckDeviceReady                   0x08000a59   Thumb Code    26  sx126x_driver.o(i.SX126xCheckDeviceReady)
+    SX126xClearIrqStatus                     0x08000a73   Thumb Code    28  sx126x_driver.o(i.SX126xClearIrqStatus)
+    SX126xGetIrqStatus                       0x08000a8f   Thumb Code    26  sx126x_driver.o(i.SX126xGetIrqStatus)
+    SX126xGetOperatingMode                   0x08000aa9   Thumb Code     6  sx126x_driver.o(i.SX126xGetOperatingMode)
+    SX126xGetPacketType                      0x08000ab5   Thumb Code     6  sx126x_driver.o(i.SX126xGetPacketType)
+    SX126xGetPayload                         0x08000ac1   Thumb Code    46  sx126x_driver.o(i.SX126xGetPayload)
+    SX126xGetRxBufferStatus                  0x08000aef   Thumb Code    66  sx126x_driver.o(i.SX126xGetRxBufferStatus)
+    SX126xInit                               0x08000b31   Thumb Code    26  sx126x_driver.o(i.SX126xInit)
+    SX126xIoInit                             0x08000b4d   Thumb Code    74  sx126x_driver.o(i.SX126xIoInit)
+    SX126xIoIrqInit                          0x08000ba1   Thumb Code     2  sx126x_driver.o(i.SX126xIoIrqInit)
+    SX126xReadBuffer                         0x08000ba3   Thumb Code    68  sx126x_driver.o(i.SX126xReadBuffer)
+    SX126xReadCommand                        0x08000be7   Thumb Code    62  sx126x_driver.o(i.SX126xReadCommand)
+    SX126xReadRegister                       0x08000c25   Thumb Code    20  sx126x_driver.o(i.SX126xReadRegister)
+    SX126xReadRegisters                      0x08000c39   Thumb Code    74  sx126x_driver.o(i.SX126xReadRegisters)
+    SX126xReset                              0x08000c83   Thumb Code    30  sx126x_driver.o(i.SX126xReset)
+    SX126xSendPayload                        0x08000ca1   Thumb Code    24  sx126x_driver.o(i.SX126xSendPayload)
+    SX126xSetBufferBaseAddress               0x08000cb9   Thumb Code    26  sx126x_driver.o(i.SX126xSetBufferBaseAddress)
+    SX126xSetDioIrqParams                    0x08000cd5   Thumb Code    46  sx126x_driver.o(i.SX126xSetDioIrqParams)
+    SX126xSetFs                              0x08000d0d   Thumb Code    20  sx126x_driver.o(i.SX126xSetFs)
+    SX126xSetLoRaSymbNumTimeout              0x08000d25   Thumb Code    14  sx126x_driver.o(i.SX126xSetLoRaSymbNumTimeout)
+    SX126xSetModulationParams                0x08000d33   Thumb Code    46  sx126x_driver.o(i.SX126xSetModulationParams)
+    SX126xSetPaConfig                        0x08000d61   Thumb Code    38  sx126x_driver.o(i.SX126xSetPaConfig)
+    SX126xSetPacketParams                    0x08000d87   Thumb Code    62  sx126x_driver.o(i.SX126xSetPacketParams)
+    SX126xSetPacketType                      0x08000dc5   Thumb Code    22  sx126x_driver.o(i.SX126xSetPacketType)
+    SX126xSetPayload                         0x08000de1   Thumb Code    18  sx126x_driver.o(i.SX126xSetPayload)
+    SX126xSetRegulatorMode                   0x08000df3   Thumb Code    14  sx126x_driver.o(i.SX126xSetRegulatorMode)
+    SX126xSetRfFrequency                     0x08000e01   Thumb Code   104  sx126x_driver.o(i.SX126xSetRfFrequency)
+    SX126xSetRx                              0x08000e75   Thumb Code    40  sx126x_driver.o(i.SX126xSetRx)
+    SX126xSetStandby                         0x08000ea1   Thumb Code    34  sx126x_driver.o(i.SX126xSetStandby)
+    SX126xSetStopRxTimerOnPreambleDetect     0x08000ec9   Thumb Code    14  sx126x_driver.o(i.SX126xSetStopRxTimerOnPreambleDetect)
+    SX126xSetTx                              0x08000ed9   Thumb Code    40  sx126x_driver.o(i.SX126xSetTx)
+    SX126xSetTxParams                        0x08000f05   Thumb Code    50  sx126x_driver.o(i.SX126xSetTxParams)
+    SX126xWaitOnBusy                         0x08000f37   Thumb Code    14  sx126x_driver.o(i.SX126xWaitOnBusy)
+    SX126xWakeup                             0x08000f45   Thumb Code    28  sx126x_driver.o(i.SX126xWakeup)
+    SX126xWriteBuffer                        0x08000f61   Thumb Code    60  sx126x_driver.o(i.SX126xWriteBuffer)
+    SX126xWriteCommand                       0x08000f9d   Thumb Code    58  sx126x_driver.o(i.SX126xWriteCommand)
+    SX126xWriteRegister                      0x08000fd7   Thumb Code    16  sx126x_driver.o(i.SX126xWriteRegister)
+    SX126xWriteRegisters                     0x08000fe7   Thumb Code    66  sx126x_driver.o(i.SX126xWriteRegisters)
+    SysTick_Handler                          0x08001029   Thumb Code     8  gd32f30x_it.o(i.SysTick_Handler)
+    SystemInit                               0x08001031   Thumb Code   100  system_gd32f30x.o(i.SystemInit)
+    TIMER1_IRQHandler                        0x080010a1   Thumb Code    76  timer.o(i.TIMER1_IRQHandler)
+    TIMER5_IRQHandler                        0x08001101   Thumb Code    44  timer.o(i.TIMER5_IRQHandler)
+    USART0_IRQHandler                        0x08001135   Thumb Code    60  communication1.o(i.USART0_IRQHandler)
+    UsageFault_Handler                       0x08001181   Thumb Code     4  gd32f30x_it.o(i.UsageFault_Handler)
+    WriteAdd                                 0x08001185   Thumb Code    32  gd32f30x_fmc.o(i.WriteAdd)
+    __scatterload_copy                       0x080011a9   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x080011b7   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x080011b9   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    communication1_init                      0x080011c7   Thumb Code     8  communication1.o(i.communication1_init)
+    crc16                                    0x080011d1   Thumb Code    48  communication1.o(i.crc16)
+    dac_data_set                             0x08001209   Thumb Code    82  gd32f30x_dac.o(i.dac_data_set)
+    dac_deinit                               0x08001261   Thumb Code    20  gd32f30x_dac.o(i.dac_deinit)
+    dac_enable                               0x08001275   Thumb Code    30  gd32f30x_dac.o(i.dac_enable)
+    dac_init                                 0x08001299   Thumb Code   108  gd32f30x_dac.o(i.dac_init)
+    dac_output_buffer_disable                0x08001309   Thumb Code    30  gd32f30x_dac.o(i.dac_output_buffer_disable)
+    dac_trigger_disable                      0x0800132d   Thumb Code    30  gd32f30x_dac.o(i.dac_trigger_disable)
+    dac_wave_mode_config                     0x08001351   Thumb Code    48  gd32f30x_dac.o(i.dac_wave_mode_config)
+    dbg_trace_pin_disable                    0x08001385   Thumb Code    14  gd32f30x_dbg.o(i.dbg_trace_pin_disable)
+    delay_1ms                                0x08001399   Thumb Code    16  systick.o(i.delay_1ms)
+    delay_decrement                          0x080013ad   Thumb Code    18  systick.o(i.delay_decrement)
+    delay_us                                 0x080013c5   Thumb Code    30  systick.o(i.delay_us)
+    drv_spi_read_write_byte                  0x080013ed   Thumb Code    70  drv_spi.o(i.drv_spi_read_write_byte)
+    fmc_bank0_ready_wait                     0x08001433   Thumb Code    34  gd32f30x_fmc.o(i.fmc_bank0_ready_wait)
+    fmc_bank0_state_get                      0x08001455   Thumb Code    44  gd32f30x_fmc.o(i.fmc_bank0_state_get)
+    fmc_bank1_ready_wait                     0x08001485   Thumb Code    34  gd32f30x_fmc.o(i.fmc_bank1_ready_wait)
+    fmc_bank1_state_get                      0x080014a9   Thumb Code    44  gd32f30x_fmc.o(i.fmc_bank1_state_get)
+    fmc_flag_clear                           0x080014d9   Thumb Code    28  gd32f30x_fmc.o(i.fmc_flag_clear)
+    fmc_halfword_program                     0x080014f9   Thumb Code   178  gd32f30x_fmc.o(i.fmc_halfword_program)
+    fmc_lock                                 0x080015b9   Thumb Code    34  gd32f30x_fmc.o(i.fmc_lock)
+    fmc_page_erase                           0x080015e5   Thumb Code   222  gd32f30x_fmc.o(i.fmc_page_erase)
+    fmc_read_Address2_16b                    0x080016d1   Thumb Code     6  gd32f30x_fmc.o(i.fmc_read_Address2_16b)
+    fmc_read_ReceiveMode_16b                 0x080016d7   Thumb Code     6  gd32f30x_fmc.o(i.fmc_read_ReceiveMode_16b)
+    fmc_read_data_16b                        0x080016dd   Thumb Code     6  gd32f30x_fmc.o(i.fmc_read_data_16b)
+    fmc_unlock                               0x080016e5   Thumb Code    52  gd32f30x_fmc.o(i.fmc_unlock)
+    fmc_write_data_16b                       0x08001729   Thumb Code   260  gd32f30x_fmc.o(i.fmc_write_data_16b)
+    gpio_bit_reset                           0x08001831   Thumb Code     4  gd32f30x_gpio.o(i.gpio_bit_reset)
+    gpio_bit_set                             0x08001835   Thumb Code     4  gd32f30x_gpio.o(i.gpio_bit_set)
+    gpio_init                                0x08001839   Thumb Code   188  gd32f30x_gpio.o(i.gpio_init)
+    gpio_input_bit_get                       0x080018f5   Thumb Code    16  gd32f30x_gpio.o(i.gpio_input_bit_get)
+    gpio_pin_remap_config                    0x08001905   Thumb Code   138  gd32f30x_gpio.o(i.gpio_pin_remap_config)
+    led_init                                 0x08001995   Thumb Code    30  led.o(i.led_init)
+    led_off                                  0x080019b9   Thumb Code    14  led.o(i.led_off)
+    led_on                                   0x080019cd   Thumb Code    14  led.o(i.led_on)
+    main                                     0x080019e1   Thumb Code   892  main.o(i.main)
+    nvic_irq_enable                          0x08001dad   Thumb Code   186  gd32f30x_misc.o(i.nvic_irq_enable)
+    nvic_priority_group_set                  0x08001e71   Thumb Code    10  gd32f30x_misc.o(i.nvic_priority_group_set)
+    radio_nss_high                           0x08001e85   Thumb Code    14  sx126x_driver.o(i.radio_nss_high)
+    radio_nss_low                            0x08001e99   Thumb Code    14  sx126x_driver.o(i.radio_nss_low)
+    radio_rx_off                             0x08001ead   Thumb Code    14  sx126x_driver.o(i.radio_rx_off)
+    radio_rx_on                              0x08001ec1   Thumb Code    14  sx126x_driver.o(i.radio_rx_on)
+    radio_tx_off                             0x08001ed5   Thumb Code    14  sx126x_driver.o(i.radio_tx_off)
+    radio_tx_on                              0x08001ee9   Thumb Code    14  sx126x_driver.o(i.radio_tx_on)
+    rcu_clock_freq_get                       0x08001efd   Thumb Code   310  gd32f30x_rcu.o(i.rcu_clock_freq_get)
+    rcu_periph_clock_enable                  0x08002055   Thumb Code    28  gd32f30x_rcu.o(i.rcu_periph_clock_enable)
+    rcu_periph_reset_disable                 0x08002075   Thumb Code    28  gd32f30x_rcu.o(i.rcu_periph_reset_disable)
+    rcu_periph_reset_enable                  0x08002095   Thumb Code    28  gd32f30x_rcu.o(i.rcu_periph_reset_enable)
+    showData1_1                              0x080020b5   Thumb Code    84  communication1.o(i.showData1_1)
+    systick_config                           0x08002235   Thumb Code    74  systick.o(i.systick_config)
+    timer1_init                              0x08002285   Thumb Code    98  timer.o(i.timer1_init)
+    timer5_init                              0x080022e9   Thumb Code    80  timer.o(i.timer5_init)
+    timer_auto_reload_shadow_enable          0x0800233d   Thumb Code    10  gd32f30x_timer.o(i.timer_auto_reload_shadow_enable)
+    timer_deinit                             0x08002349   Thumb Code   210  gd32f30x_timer.o(i.timer_deinit)
+    timer_enable                             0x08002425   Thumb Code    10  gd32f30x_timer.o(i.timer_enable)
+    timer_flag_clear                         0x0800242f   Thumb Code     6  gd32f30x_timer.o(i.timer_flag_clear)
+    timer_init                               0x08002435   Thumb Code   122  gd32f30x_timer.o(i.timer_init)
+    timer_interrupt_enable                   0x080024cd   Thumb Code     8  gd32f30x_timer.o(i.timer_interrupt_enable)
+    timer_interrupt_flag_clear               0x080024d5   Thumb Code     6  gd32f30x_timer.o(i.timer_interrupt_flag_clear)
+    timer_interrupt_flag_get                 0x080024db   Thumb Code    24  gd32f30x_timer.o(i.timer_interrupt_flag_get)
+    usart0_config                            0x080024f5   Thumb Code   152  usart0.o(i.usart0_config)
+    usart_baudrate_set                       0x08002595   Thumb Code   136  gd32f30x_usart.o(i.usart_baudrate_set)
+    usart_data_receive                       0x08002625   Thumb Code    10  gd32f30x_usart.o(i.usart_data_receive)
+    usart_data_transmit                      0x0800262f   Thumb Code     8  gd32f30x_usart.o(i.usart_data_transmit)
+    usart_deinit                             0x08002639   Thumb Code   136  gd32f30x_usart.o(i.usart_deinit)
+    usart_enable                             0x080026c9   Thumb Code    10  gd32f30x_usart.o(i.usart_enable)
+    usart_flag_get                           0x080026d3   Thumb Code    30  gd32f30x_usart.o(i.usart_flag_get)
+    usart_interrupt_enable                   0x080026f1   Thumb Code    26  gd32f30x_usart.o(i.usart_interrupt_enable)
+    usart_interrupt_flag_clear               0x0800270b   Thumb Code    26  gd32f30x_usart.o(i.usart_interrupt_flag_clear)
+    usart_interrupt_flag_get                 0x08002725   Thumb Code    56  gd32f30x_usart.o(i.usart_interrupt_flag_get)
+    usart_parity_config                      0x0800275d   Thumb Code    16  gd32f30x_usart.o(i.usart_parity_config)
+    usart_receive_config                     0x0800276d   Thumb Code    16  gd32f30x_usart.o(i.usart_receive_config)
+    usart_stop_bit_set                       0x0800277d   Thumb Code    16  gd32f30x_usart.o(i.usart_stop_bit_set)
+    usart_transmit_config                    0x0800278d   Thumb Code    16  gd32f30x_usart.o(i.usart_transmit_config)
+    usart_word_length_set                    0x0800279d   Thumb Code    16  gd32f30x_usart.o(i.usart_word_length_set)
+    Bandwidths                               0x080027b0   Data           3  radio.o(.constdata)
+    RadioLoRaSymbTime                        0x080027b8   Data         192  radio.o(.constdata)
+    auchCRCHi                                0x08002878   Data         256  communication1.o(.constdata)
+    auchCRCLo                                0x08002978   Data         256  communication1.o(.constdata)
+    Region$$Table$$Base                      0x08002a78   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08002a98   Number         0  anon$$obj.o(Region$$Table)
+    u8UsartRxCnt                             0x20000000   Data           1  main.o(.data)
+    u8fReceiveStart                          0x20000001   Data           1  main.o(.data)
+    u16RxcheckSum                            0x20000002   Data           2  main.o(.data)
+    u8RxFinished                             0x20000004   Data           1  main.o(.data)
+    Test                                     0x20000005   Data           4  main.o(.data)
+    EnReceive                                0x20000009   Data           1  main.o(.data)
+    irqRegs                                  0x2000000a   Data           1  main.o(.data)
+    g_RxLen                                  0x2000000b   Data           1  main.o(.data)
+    AddressInit                              0x2000000c   Data           1  main.o(.data)
+    tempdata1                                0x2000000e   Data           2  main.o(.data)
+    tempdata2                                0x20000010   Data           2  main.o(.data)
+    DACdata1                                 0x20000012   Data           2  main.o(.data)
+    DACdata2                                 0x20000014   Data           2  main.o(.data)
+    countnum                                 0x20000016   Data           2  main.o(.data)
+    countnum1                                0x20000018   Data           2  main.o(.data)
+    countnum2                                0x2000001a   Data           2  main.o(.data)
+    SystemCoreClock                          0x2000001c   Data           4  system_gd32f30x.o(.data)
+    RxContinuous                             0x20000026   Data           1  radio.o(.data)
+    radio_irq                                0x20000027   Data           1  radio.o(.data)
+    MaxPayloadLength                         0x20000028   Data           1  radio.o(.data)
+    TxTimeout                                0x2000002c   Data           4  radio.o(.data)
+    RxTimeout                                0x20000030   Data           4  radio.o(.data)
+    FrequencyError                           0x20000038   Data           4  sx126x_driver.o(.data)
+    UpdateNum                                0x2000003e   Data           1  communication1.o(.data)
+    ReceiveOrSend                            0x20000040   Data           2  communication1.o(.data)
+    DataNum                                  0x20000042   Data           1  communication1.o(.data)
+    ReceiveMode                              0x20000044   Data           2  communication1.o(.data)
+    Address1                                 0x20000046   Data           2  communication1.o(.data)
+    Address2                                 0x20000048   Data           2  communication1.o(.data)
+    ModbusEquipmentExist                     0x2000004a   Data           8  communication1.o(.data)
+    NumTest                                  0x20000052   Data           1  timer.o(.data)
+    Timcounter                               0x20000054   Data           2  timer.o(.data)
+    u8UsartRxData                            0x20000058   Data         100  main.o(.bss)
+    g_RxBuffer                               0x200000bc   Data         256  main.o(.bss)
+    buff                                     0x200001bc   Data          10  main.o(.bss)
+    SX126x                                   0x200001c8   Data          60  radio.o(.bss)
+    ModbusTx                                 0x20000204   Data         260  communication1.o(.bss)
+    ModbusRx                                 0x20000308   Data         258  communication1.o(.bss)
+    DataReceive                              0x2000040a   Data         250  communication1.o(.bss)
+    DataReceive6                             0x20000504   Data          20  communication1.o(.bss)
+    ReceiveBuff                              0x20000518   Data          10  communication1.o(.bss)
+    __initial_sp                             0x20000928   Data           0  startup_gd32f30x_hd.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x08000131
+
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00002af0, Max: 0x00020000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00002a98, Max: 0x00020000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x08000000   0x00000130   Data   RO         4043    RESET               startup_gd32f30x_hd.o
+    0x08000130   0x08000130   0x00000000   Code   RO         5344  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x08000130   0x00000004   Code   RO         5353    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x08000134   0x00000004   Code   RO         5356    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x08000138   0x00000000   Code   RO         5358    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x08000138   0x00000000   Code   RO         5360    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x08000138   0x00000008   Code   RO         5361    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x08000140   0x00000000   Code   RO         5363    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x08000140   0x00000000   Code   RO         5365    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x08000140   0x00000004   Code   RO         5354    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000144   0x08000144   0x00000024   Code   RO         4044    .text               startup_gd32f30x_hd.o
+    0x08000168   0x08000168   0x000000de   Code   RO         5347    .text               mf_w.l(ddiv.o)
+    0x08000246   0x08000246   0x0000001a   Code   RO         5349    .text               mf_w.l(dfltui.o)
+    0x08000260   0x08000260   0x00000032   Code   RO         5351    .text               mf_w.l(dfixui.o)
+    0x08000292   0x08000292   0x00000020   Code   RO         5367    .text               mc_w.l(llushr.o)
+    0x080002b2   0x080002b2   0x00000000   Code   RO         5369    .text               mc_w.l(iusefp.o)
+    0x080002b2   0x080002b2   0x000000ba   Code   RO         5370    .text               mf_w.l(depilogue.o)
+    0x0800036c   0x0800036c   0x00000024   Code   RO         5372    .text               mc_w.l(init.o)
+    0x08000390   0x08000390   0x0000001e   Code   RO         5374    .text               mc_w.l(llshl.o)
+    0x080003ae   0x080003ae   0x00000002   PAD
+    0x080003b0   0x080003b0   0x00000014   Code   RO         4685    i.BUSY_READ         sx126x_driver.o
+    0x080003c4   0x080003c4   0x00000004   Code   RO         4169    i.BusFault_Handler  gd32f30x_it.o
+    0x080003c8   0x080003c8   0x00000002   Code   RO         4170    i.DebugMon_Handler  gd32f30x_it.o
+    0x080003ca   0x080003ca   0x000000c0   Code   RO         5169    i.Delay_nms         delay.o
+    0x0800048a   0x0800048a   0x00000004   Code   RO         4171    i.HardFault_Handler  gd32f30x_it.o
+    0x0800048e   0x0800048e   0x00000002   PAD
+    0x08000490   0x08000490   0x00000010   Code   RO         4393    i.MISO_READ         drv_spi.o
+    0x080004a0   0x080004a0   0x00000010   Code   RO         4394    i.MOSI_H            drv_spi.o
+    0x080004b0   0x080004b0   0x00000010   Code   RO         4395    i.MOSI_L            drv_spi.o
+    0x080004c0   0x080004c0   0x00000004   Code   RO         4172    i.MemManage_Handler  gd32f30x_it.o
+    0x080004c4   0x080004c4   0x00000058   Code   RO         5195    i.ModbusFun6_1      communication1.o
+    0x0800051c   0x0800051c   0x00000060   Code   RO         5196    i.ModbusInit        communication1.o
+    0x0800057c   0x0800057c   0x00000024   Code   RO         5200    i.ModbusSendOrder   communication1.o
+    0x080005a0   0x080005a0   0x00000060   Code   RO         5201    i.Modbus_Event_1    communication1.o
+    0x08000600   0x08000600   0x00000002   Code   RO         4173    i.NMI_Handler       gd32f30x_it.o
+    0x08000602   0x08000602   0x00000002   PAD
+    0x08000604   0x08000604   0x00000014   Code   RO         4686    i.NRST_off          sx126x_driver.o
+    0x08000618   0x08000618   0x00000014   Code   RO         4687    i.NRST_on           sx126x_driver.o
+    0x0800062c   0x0800062c   0x00000028   Code   RO         4240    i.NVIC_SetPriority  systick.o
+    0x08000654   0x08000654   0x00000080   Code   RO         4452    i.OrderSend         radio.o
+    0x080006d4   0x080006d4   0x00000002   Code   RO         4174    i.PendSV_Handler    gd32f30x_it.o
+    0x080006d6   0x080006d6   0x00000002   PAD
+    0x080006d8   0x080006d8   0x00000014   Code   RO         5202    i.RS485_Read        communication1.o
+    0x080006ec   0x080006ec   0x00000014   Code   RO         5203    i.RS485_Send        communication1.o
+    0x08000700   0x08000700   0x00000048   Code   RO         5204    i.RS485_Send_Data   communication1.o
+    0x08000748   0x08000748   0x0000000c   Code   RO         4454    i.RadioClearIrqStatus  radio.o
+    0x08000754   0x08000754   0x00000014   Code   RO         4455    i.RadioGetBuffer    radio.o
+    0x08000768   0x08000768   0x00000008   Code   RO         4457    i.RadioGetIrqStatus  radio.o
+    0x08000770   0x08000770   0x00000032   Code   RO         4460    i.RadioInit         radio.o
+    0x080007a2   0x080007a2   0x00000022   Code   RO         4467    i.RadioRx           radio.o
+    0x080007c4   0x080007c4   0x0000004c   Code   RO         4469    i.RadioSend         radio.o
+    0x08000810   0x08000810   0x0000000c   Code   RO         4471    i.RadioSetChannel   radio.o
+    0x0800081c   0x0800081c   0x00000038   Code   RO         4473    i.RadioSetModem     radio.o
+    0x08000854   0x08000854   0x0000003a   Code   RO         4475    i.RadioSetPublicNetwork  radio.o
+    0x0800088e   0x0800088e   0x00000002   PAD
+    0x08000890   0x08000890   0x000000b0   Code   RO         4478    i.RadioSetTxConfig  radio.o
+    0x08000940   0x08000940   0x0000000a   Code   RO         4482    i.RadioStandby      radio.o
+    0x0800094a   0x0800094a   0x00000002   PAD
+    0x0800094c   0x0800094c   0x00000010   Code   RO         4396    i.SCLK_H            drv_spi.o
+    0x0800095c   0x0800095c   0x00000010   Code   RO         4397    i.SCLK_L            drv_spi.o
+    0x0800096c   0x0800096c   0x00000048   Code   RO         4398    i.SPI_GPIO_Init     drv_spi.o
+    0x080009b4   0x080009b4   0x00000002   Code   RO         4175    i.SVC_Handler       gd32f30x_it.o
+    0x080009b6   0x080009b6   0x00000002   PAD
+    0x080009b8   0x080009b8   0x000000a0   Code   RO         4689    i.SX126xCalibrateImage  sx126x_driver.o
+    0x08000a58   0x08000a58   0x0000001a   Code   RO         4690    i.SX126xCheckDeviceReady  sx126x_driver.o
+    0x08000a72   0x08000a72   0x0000001c   Code   RO         4692    i.SX126xClearIrqStatus  sx126x_driver.o
+    0x08000a8e   0x08000a8e   0x0000001a   Code   RO         4694    i.SX126xGetIrqStatus  sx126x_driver.o
+    0x08000aa8   0x08000aa8   0x0000000c   Code   RO         4695    i.SX126xGetOperatingMode  sx126x_driver.o
+    0x08000ab4   0x08000ab4   0x0000000c   Code   RO         4698    i.SX126xGetPacketType  sx126x_driver.o
+    0x08000ac0   0x08000ac0   0x0000002e   Code   RO         4699    i.SX126xGetPayload  sx126x_driver.o
+    0x08000aee   0x08000aee   0x00000042   Code   RO         4702    i.SX126xGetRxBufferStatus  sx126x_driver.o
+    0x08000b30   0x08000b30   0x0000001a   Code   RO         4704    i.SX126xInit        sx126x_driver.o
+    0x08000b4a   0x08000b4a   0x00000002   PAD
+    0x08000b4c   0x08000b4c   0x00000054   Code   RO         4706    i.SX126xIoInit      sx126x_driver.o
+    0x08000ba0   0x08000ba0   0x00000002   Code   RO         4707    i.SX126xIoIrqInit   sx126x_driver.o
+    0x08000ba2   0x08000ba2   0x00000044   Code   RO         4708    i.SX126xReadBuffer  sx126x_driver.o
+    0x08000be6   0x08000be6   0x0000003e   Code   RO         4709    i.SX126xReadCommand  sx126x_driver.o
+    0x08000c24   0x08000c24   0x00000014   Code   RO         4710    i.SX126xReadRegister  sx126x_driver.o
+    0x08000c38   0x08000c38   0x0000004a   Code   RO         4711    i.SX126xReadRegisters  sx126x_driver.o
+    0x08000c82   0x08000c82   0x0000001e   Code   RO         4713    i.SX126xReset       sx126x_driver.o
+    0x08000ca0   0x08000ca0   0x00000018   Code   RO         4714    i.SX126xSendPayload  sx126x_driver.o
+    0x08000cb8   0x08000cb8   0x0000001a   Code   RO         4715    i.SX126xSetBufferBaseAddress  sx126x_driver.o
+    0x08000cd2   0x08000cd2   0x00000002   PAD
+    0x08000cd4   0x08000cd4   0x00000038   Code   RO         4722    i.SX126xSetDioIrqParams  sx126x_driver.o
+    0x08000d0c   0x08000d0c   0x00000018   Code   RO         4723    i.SX126xSetFs       sx126x_driver.o
+    0x08000d24   0x08000d24   0x0000000e   Code   RO         4724    i.SX126xSetLoRaSymbNumTimeout  sx126x_driver.o
+    0x08000d32   0x08000d32   0x0000002e   Code   RO         4725    i.SX126xSetModulationParams  sx126x_driver.o
+    0x08000d60   0x08000d60   0x00000026   Code   RO         4726    i.SX126xSetPaConfig  sx126x_driver.o
+    0x08000d86   0x08000d86   0x0000003e   Code   RO         4727    i.SX126xSetPacketParams  sx126x_driver.o
+    0x08000dc4   0x08000dc4   0x0000001c   Code   RO         4728    i.SX126xSetPacketType  sx126x_driver.o
+    0x08000de0   0x08000de0   0x00000012   Code   RO         4729    i.SX126xSetPayload  sx126x_driver.o
+    0x08000df2   0x08000df2   0x0000000e   Code   RO         4730    i.SX126xSetRegulatorMode  sx126x_driver.o
+    0x08000e00   0x08000e00   0x00000074   Code   RO         4731    i.SX126xSetRfFrequency  sx126x_driver.o
+    0x08000e74   0x08000e74   0x0000002c   Code   RO         4732    i.SX126xSetRx       sx126x_driver.o
+    0x08000ea0   0x08000ea0   0x00000028   Code   RO         4737    i.SX126xSetStandby  sx126x_driver.o
+    0x08000ec8   0x08000ec8   0x0000000e   Code   RO         4738    i.SX126xSetStopRxTimerOnPreambleDetect  sx126x_driver.o
+    0x08000ed6   0x08000ed6   0x00000002   PAD
+    0x08000ed8   0x08000ed8   0x0000002c   Code   RO         4740    i.SX126xSetTx       sx126x_driver.o
+    0x08000f04   0x08000f04   0x00000032   Code   RO         4743    i.SX126xSetTxParams  sx126x_driver.o
+    0x08000f36   0x08000f36   0x0000000e   Code   RO         4745    i.SX126xWaitOnBusy  sx126x_driver.o
+    0x08000f44   0x08000f44   0x0000001c   Code   RO         4746    i.SX126xWakeup      sx126x_driver.o
+    0x08000f60   0x08000f60   0x0000003c   Code   RO         4747    i.SX126xWriteBuffer  sx126x_driver.o
+    0x08000f9c   0x08000f9c   0x0000003a   Code   RO         4748    i.SX126xWriteCommand  sx126x_driver.o
+    0x08000fd6   0x08000fd6   0x00000010   Code   RO         4749    i.SX126xWriteRegister  sx126x_driver.o
+    0x08000fe6   0x08000fe6   0x00000042   Code   RO         4750    i.SX126xWriteRegisters  sx126x_driver.o
+    0x08001028   0x08001028   0x00000008   Code   RO         4176    i.SysTick_Handler   gd32f30x_it.o
+    0x08001030   0x08001030   0x00000070   Code   RO         4128    i.SystemInit        system_gd32f30x.o
+    0x080010a0   0x080010a0   0x00000060   Code   RO         5301    i.TIMER1_IRQHandler  timer.o
+    0x08001100   0x08001100   0x00000034   Code   RO         5302    i.TIMER5_IRQHandler  timer.o
+    0x08001134   0x08001134   0x0000004c   Code   RO         5205    i.USART0_IRQHandler  communication1.o
+    0x08001180   0x08001180   0x00000004   Code   RO         4177    i.UsageFault_Handler  gd32f30x_it.o
+    0x08001184   0x08001184   0x00000024   Code   RO         1514    i.WriteAdd          gd32f30x_fmc.o
+    0x080011a8   0x080011a8   0x0000000e   Code   RO         5378    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x080011b6   0x080011b6   0x00000002   Code   RO         5379    i.__scatterload_null  mc_w.l(handlers.o)
+    0x080011b8   0x080011b8   0x0000000e   Code   RO         5380    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x080011c6   0x080011c6   0x00000008   Code   RO         5206    i.communication1_init  communication1.o
+    0x080011ce   0x080011ce   0x00000002   PAD
+    0x080011d0   0x080011d0   0x00000038   Code   RO         5207    i.crc16             communication1.o
+    0x08001208   0x08001208   0x00000058   Code   RO          844    i.dac_data_set      gd32f30x_dac.o
+    0x08001260   0x08001260   0x00000014   Code   RO          845    i.dac_deinit        gd32f30x_dac.o
+    0x08001274   0x08001274   0x00000024   Code   RO          849    i.dac_enable        gd32f30x_dac.o
+    0x08001298   0x08001298   0x00000070   Code   RO          850    i.dac_init          gd32f30x_dac.o
+    0x08001308   0x08001308   0x00000024   Code   RO          852    i.dac_output_buffer_disable  gd32f30x_dac.o
+    0x0800132c   0x0800132c   0x00000024   Code   RO          858    i.dac_trigger_disable  gd32f30x_dac.o
+    0x08001350   0x08001350   0x00000034   Code   RO          862    i.dac_wave_mode_config  gd32f30x_dac.o
+    0x08001384   0x08001384   0x00000014   Code   RO         1013    i.dbg_trace_pin_disable  gd32f30x_dbg.o
+    0x08001398   0x08001398   0x00000014   Code   RO         4241    i.delay_1ms         systick.o
+    0x080013ac   0x080013ac   0x00000018   Code   RO         4242    i.delay_decrement   systick.o
+    0x080013c4   0x080013c4   0x00000028   Code   RO         4244    i.delay_us          systick.o
+    0x080013ec   0x080013ec   0x00000046   Code   RO         4399    i.drv_spi_read_write_byte  drv_spi.o
+    0x08001432   0x08001432   0x00000022   Code   RO         1519    i.fmc_bank0_ready_wait  gd32f30x_fmc.o
+    0x08001454   0x08001454   0x00000030   Code   RO         1520    i.fmc_bank0_state_get  gd32f30x_fmc.o
+    0x08001484   0x08001484   0x00000022   Code   RO         1524    i.fmc_bank1_ready_wait  gd32f30x_fmc.o
+    0x080014a6   0x080014a6   0x00000002   PAD
+    0x080014a8   0x080014a8   0x00000030   Code   RO         1525    i.fmc_bank1_state_get  gd32f30x_fmc.o
+    0x080014d8   0x080014d8   0x00000020   Code   RO         1527    i.fmc_flag_clear    gd32f30x_fmc.o
+    0x080014f8   0x080014f8   0x000000c0   Code   RO         1529    i.fmc_halfword_program  gd32f30x_fmc.o
+    0x080015b8   0x080015b8   0x0000002c   Code   RO         1534    i.fmc_lock          gd32f30x_fmc.o
+    0x080015e4   0x080015e4   0x000000ec   Code   RO         1536    i.fmc_page_erase    gd32f30x_fmc.o
+    0x080016d0   0x080016d0   0x00000006   Code   RO         1537    i.fmc_read_Address2_16b  gd32f30x_fmc.o
+    0x080016d6   0x080016d6   0x00000006   Code   RO         1538    i.fmc_read_ReceiveMode_16b  gd32f30x_fmc.o
+    0x080016dc   0x080016dc   0x00000006   Code   RO         1539    i.fmc_read_data_16b  gd32f30x_fmc.o
+    0x080016e2   0x080016e2   0x00000002   PAD
+    0x080016e4   0x080016e4   0x00000044   Code   RO         1540    i.fmc_unlock        gd32f30x_fmc.o
+    0x08001728   0x08001728   0x00000108   Code   RO         1543    i.fmc_write_data_16b  gd32f30x_fmc.o
+    0x08001830   0x08001830   0x00000004   Code   RO         1831    i.gpio_bit_reset    gd32f30x_gpio.o
+    0x08001834   0x08001834   0x00000004   Code   RO         1832    i.gpio_bit_set      gd32f30x_gpio.o
+    0x08001838   0x08001838   0x000000bc   Code   RO         1841    i.gpio_init         gd32f30x_gpio.o
+    0x080018f4   0x080018f4   0x00000010   Code   RO         1842    i.gpio_input_bit_get  gd32f30x_gpio.o
+    0x08001904   0x08001904   0x00000090   Code   RO         1847    i.gpio_pin_remap_config  gd32f30x_gpio.o
+    0x08001994   0x08001994   0x00000024   Code   RO         4349    i.led_init          led.o
+    0x080019b8   0x080019b8   0x00000014   Code   RO         4350    i.led_off           led.o
+    0x080019cc   0x080019cc   0x00000014   Code   RO         4351    i.led_on            led.o
+    0x080019e0   0x080019e0   0x000003cc   Code   RO         4050    i.main              main.o
+    0x08001dac   0x08001dac   0x000000c4   Code   RO         2159    i.nvic_irq_enable   gd32f30x_misc.o
+    0x08001e70   0x08001e70   0x00000014   Code   RO         2160    i.nvic_priority_group_set  gd32f30x_misc.o
+    0x08001e84   0x08001e84   0x00000014   Code   RO         4751    i.radio_nss_high    sx126x_driver.o
+    0x08001e98   0x08001e98   0x00000014   Code   RO         4752    i.radio_nss_low     sx126x_driver.o
+    0x08001eac   0x08001eac   0x00000014   Code   RO         4753    i.radio_rx_off      sx126x_driver.o
+    0x08001ec0   0x08001ec0   0x00000014   Code   RO         4754    i.radio_rx_on       sx126x_driver.o
+    0x08001ed4   0x08001ed4   0x00000014   Code   RO         4755    i.radio_tx_off      sx126x_driver.o
+    0x08001ee8   0x08001ee8   0x00000014   Code   RO         4756    i.radio_tx_on       sx126x_driver.o
+    0x08001efc   0x08001efc   0x00000158   Code   RO         2358    i.rcu_clock_freq_get  gd32f30x_rcu.o
+    0x08002054   0x08002054   0x00000020   Code   RO         2376    i.rcu_periph_clock_enable  gd32f30x_rcu.o
+    0x08002074   0x08002074   0x00000020   Code   RO         2379    i.rcu_periph_reset_disable  gd32f30x_rcu.o
+    0x08002094   0x08002094   0x00000020   Code   RO         2380    i.rcu_periph_reset_enable  gd32f30x_rcu.o
+    0x080020b4   0x080020b4   0x00000064   Code   RO         5208    i.showData1_1       communication1.o
+    0x08002118   0x08002118   0x00000114   Code   RO         4129    i.system_clock_120m_hxtal  system_gd32f30x.o
+    0x0800222c   0x0800222c   0x00000008   Code   RO         4130    i.system_clock_config  system_gd32f30x.o
+    0x08002234   0x08002234   0x00000050   Code   RO         4245    i.systick_config    systick.o
+    0x08002284   0x08002284   0x00000062   Code   RO         5303    i.timer1_init       timer.o
+    0x080022e6   0x080022e6   0x00000002   PAD
+    0x080022e8   0x080022e8   0x00000054   Code   RO         5304    i.timer5_init       timer.o
+    0x0800233c   0x0800233c   0x0000000a   Code   RO         3234    i.timer_auto_reload_shadow_enable  gd32f30x_timer.o
+    0x08002346   0x08002346   0x00000002   PAD
+    0x08002348   0x08002348   0x000000dc   Code   RO         3264    i.timer_deinit      gd32f30x_timer.o
+    0x08002424   0x08002424   0x0000000a   Code   RO         3269    i.timer_enable      gd32f30x_timer.o
+    0x0800242e   0x0800242e   0x00000006   Code   RO         3276    i.timer_flag_clear  gd32f30x_timer.o
+    0x08002434   0x08002434   0x00000098   Code   RO         3279    i.timer_init        gd32f30x_timer.o
+    0x080024cc   0x080024cc   0x00000008   Code   RO         3286    i.timer_interrupt_enable  gd32f30x_timer.o
+    0x080024d4   0x080024d4   0x00000006   Code   RO         3287    i.timer_interrupt_flag_clear  gd32f30x_timer.o
+    0x080024da   0x080024da   0x00000018   Code   RO         3288    i.timer_interrupt_flag_get  gd32f30x_timer.o
+    0x080024f2   0x080024f2   0x00000002   PAD
+    0x080024f4   0x080024f4   0x000000a0   Code   RO         4301    i.usart0_config     usart0.o
+    0x08002594   0x08002594   0x00000090   Code   RO         3674    i.usart_baudrate_set  gd32f30x_usart.o
+    0x08002624   0x08002624   0x0000000a   Code   RO         3677    i.usart_data_receive  gd32f30x_usart.o
+    0x0800262e   0x0800262e   0x00000008   Code   RO         3678    i.usart_data_transmit  gd32f30x_usart.o
+    0x08002636   0x08002636   0x00000002   PAD
+    0x08002638   0x08002638   0x00000090   Code   RO         3679    i.usart_deinit      gd32f30x_usart.o
+    0x080026c8   0x080026c8   0x0000000a   Code   RO         3683    i.usart_enable      gd32f30x_usart.o
+    0x080026d2   0x080026d2   0x0000001e   Code   RO         3685    i.usart_flag_get    gd32f30x_usart.o
+    0x080026f0   0x080026f0   0x0000001a   Code   RO         3692    i.usart_interrupt_enable  gd32f30x_usart.o
+    0x0800270a   0x0800270a   0x0000001a   Code   RO         3693    i.usart_interrupt_flag_clear  gd32f30x_usart.o
+    0x08002724   0x08002724   0x00000038   Code   RO         3694    i.usart_interrupt_flag_get  gd32f30x_usart.o
+    0x0800275c   0x0800275c   0x00000010   Code   RO         3705    i.usart_parity_config  gd32f30x_usart.o
+    0x0800276c   0x0800276c   0x00000010   Code   RO         3707    i.usart_receive_config  gd32f30x_usart.o
+    0x0800277c   0x0800277c   0x00000010   Code   RO         3717    i.usart_stop_bit_set  gd32f30x_usart.o
+    0x0800278c   0x0800278c   0x00000010   Code   RO         3721    i.usart_transmit_config  gd32f30x_usart.o
+    0x0800279c   0x0800279c   0x00000010   Code   RO         3722    i.usart_word_length_set  gd32f30x_usart.o
+    0x080027ac   0x080027ac   0x00000004   PAD
+    0x080027b0   0x080027b0   0x000000c8   Data   RO         4488    .constdata          radio.o
+    0x08002878   0x08002878   0x00000200   Data   RO         5210    .constdata          communication1.o
+    0x08002a78   0x08002a78   0x00000020   Data   RO         5376    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08002a98, Size: 0x00000928, Max: 0x00008000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x08002a98   0x0000001c   Data   RW         4052    .data               main.o
+    0x2000001c   0x08002ab4   0x00000004   Data   RW         4131    .data               system_gd32f30x.o
+    0x20000020   0x08002ab8   0x00000004   Data   RW         4246    .data               systick.o
+    0x20000024   0x08002abc   0x00000010   Data   RW         4489    .data               radio.o
+    0x20000034   0x08002acc   0x00000009   Data   RW         4757    .data               sx126x_driver.o
+    0x2000003d   0x08002ad5   0x00000001   PAD
+    0x2000003e   0x08002ad6   0x00000014   Data   RW         5211    .data               communication1.o
+    0x20000052   0x08002aea   0x00000004   Data   RW         5305    .data               timer.o
+    0x20000056   0x08002aee   0x00000002   PAD
+    0x20000058        -       0x0000016e   Zero   RW         4051    .bss                main.o
+    0x200001c6   0x08002aee   0x00000002   PAD
+    0x200001c8        -       0x0000003c   Zero   RW         4487    .bss                radio.o
+    0x20000204        -       0x0000031e   Zero   RW         5209    .bss                communication1.o
+    0x20000522   0x08002aee   0x00000006   PAD
+    0x20000528        -       0x00000400   Zero   RW         4041    STACK               startup_gd32f30x_hd.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       668        108        512         20        798       9163   communication1.o
+       192          0          0          0          0        596   delay.o
+       222         28          0          0          0       4018   drv_spi.o
+         0          0          0          0          0      53484   gd32f30x_adc.o
+       380         32          0          0          0       4797   gd32f30x_dac.o
+        20          6          0          0          0        628   gd32f30x_dbg.o
+      1054         74          0          0          0      11254   gd32f30x_fmc.o
+       356          6          0          0          0       4125   gd32f30x_gpio.o
+        32          0          0          0          0       4678   gd32f30x_it.o
+       216         20          0          0          0       1652   gd32f30x_misc.o
+       440         46          0          0          0       3412   gd32f30x_rcu.o
+       436         40          0          0          0       6477   gd32f30x_timer.o
+       534         16          0          0          0      10486   gd32f30x_usart.o
+        76         18          0          0          0       1598   led.o
+       972         80          0         28        366       9749   main.o
+       640         40        200         16         60       9935   radio.o
+        36          8        304          0       1024        952   startup_gd32f30x_hd.o
+      1822        148          0          9          0      32627   sx126x_driver.o
+       396         30          0          4          0       3147   system_gd32f30x.o
+       204         34          0          4          0      30165   systick.o
+       330         32          0          4          0       2797   timer.o
+       160          8          0          0          0        668   usart0.o
+
+    ----------------------------------------------------------------------
+      9222        774       1048         88       2256     206408   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+        36          0          0          3          8          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+         0          0          0          0          0          0   iusefp.o
+        30          0          0          0          0         68   llshl.o
+        32          0          0          0          0         68   llushr.o
+       222          0          0          0          0        100   ddiv.o
+       186          0          0          0          0        176   depilogue.o
+        50          0          0          0          0         76   dfixui.o
+        26          0          0          0          0         76   dfltui.o
+
+    ----------------------------------------------------------------------
+       634         16          0          0          0        632   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       148         16          0          0          0        204   mc_w.l
+       484          0          0          0          0        428   mf_w.l
+
+    ----------------------------------------------------------------------
+       634         16          0          0          0        632   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      9856        790       1048         88       2256     191584   Grand Totals
+      9856        790       1048         88       2256     191584   ELF Image Totals
+      9856        790       1048         88          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                10904 (  10.65kB)
+    Total RW  Size (RW Data + ZI Data)              2344 (   2.29kB)
+    Total ROM Size (Code + RO Data + RW Data)      10992 (  10.73kB)
+
+==============================================================================
+

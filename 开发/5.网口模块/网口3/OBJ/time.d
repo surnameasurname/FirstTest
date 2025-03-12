@@ -1,0 +1,10 @@
+..\obj\time.o: ..\HARDWARE\TIME\time.c
+..\obj\time.o: ..\HARDWARE\TIME\time.h
+..\obj\time.o: ..\SYSTEM\sys\sys.h
+..\obj\time.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\time.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+..\obj\time.o: D:\MDK523\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\time.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+..\obj\time.o: D:\MDK523\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+..\obj\time.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\time.o: ..\HARDWARE\COMMUNICATION\communication1.h
